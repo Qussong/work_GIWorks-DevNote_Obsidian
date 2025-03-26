@@ -11,14 +11,10 @@
             "id": "45d8d9a6fc8d6f54",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/community-plugins.json",
-                "bFile": ".obsidian/community-plugins.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: community-plugins.json"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ]
