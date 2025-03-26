@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "dc470e20ee1dbd4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d774ddd454827fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae653bb364fad68f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/옵시디언/Git Extension.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git Extension"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9f3dd1d1b3dd8d00",
+    "type": "split",
+    "children": [
+      {
+        "id": "f53c7cf981f5260c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8143b15a9106c5cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "af9386f1dd450026",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "fd15a35df3bc838a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 320.5
+  },
+  "right": {
+    "id": "ad22ed403cedab75",
+    "type": "split",
+    "children": [
+      {
+        "id": "440df07805795f7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f281606781505344",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Study/옵시디언/Markdown.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Markdown 의 백링크"
+            }
+          },
+          {
+            "id": "958fefd4850259c9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Study/옵시디언/Git Extension.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Git Extension 의 나가는 링크"
+            }
+          },
+          {
+            "id": "09ab1d002981cd78",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "2f496c0046896ba9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study/옵시디언/Markdown.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Markdown 의 개요"
+            }
+          },
+          {
+            "id": "f49da9b531214531",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "ae653bb364fad68f",
+  "lastOpenFiles": [
+    "Study/옵시디언/Resources/traceVault.png",
+    "Study/옵시디언/Git Extension.md",
+    "Study/옵시디언/Resources/gitPlugin.png",
+    "Study/옵시디언/_Obsidian.md",
+    "Study/옵시디언/Obsidian Release.md",
+    "Study/옵시디언/Markdown.md",
+    "Study/옵시디언/Resources/myDigitalGardenDefault.png",
+    "Study/옵시디언/Resources/gitPluginSetting.png",
+    "Study/옵시디언/Resources/DNSConfig.png",
+    "무제.canvas",
+    "Study/옵시디언/Resources/Pasted image 20250326193611.png",
+    "Study/옵시디언/Resources",
+    "Works/_Layout_Dev.md",
+    "Works/동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
+    "Works/동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
+    "Works/동특전/감정읽기⭐⭐⭐/FaceRecogRuntimeCustom-Python.md",
+    "Works/동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
+    "Works/동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
+    "Study/옵시디언",
+    "Works/동특전/감정읽기⭐⭐⭐/Resources/감정읽기-세부연출계획.png",
+    "Works/동특전/감정읽기⭐⭐⭐/Resources/라이브러리.png",
+    "Works/동특전/감정읽기/감정읽기.md",
+    "Works/동특전/감정읽기⭐⭐⭐/Resources",
+    "Works/동특전/감정읽기⭐⭐⭐",
+    "Works/동특전/감정읽기",
+    "Works/동특전/감정읽기/Resources/라이브러리.png",
+    "Works/동특전/감정읽기/Resources/감정읽기-세부연출계획.png",
+    "Study/Resources",
+    "Works/동특전/감정읽기/Resources",
+    "Works/동특전/감정읽기",
+    "Works/동특전",
+    "S.md",
+    "Lecture"
+  ]
+}
