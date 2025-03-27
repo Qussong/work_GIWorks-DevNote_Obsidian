@@ -25,8 +25,16 @@ Memo :
 ### JSON 입출력
 
 #### JsonUtility
-
+유니티에서 제공하는 JSON 파서지만 기능이 다양하지 않다.
+- 클래스 타입만 직렬화 가능
+- 속성이 public 이거나 SerializeField 가 있어야 함
+- JSON 포맷이 단순한 경우만 직렬화하기 적절함
 #### Newtonsoft.Json
+유니티에서 사용가능한 가장 강력한 JSON 라이브러리
+- Dictionary, List 등 다양한 자료형 지원
+- private 변수도 직렬화 가능 (JsonProperty 활용)
+- JsonUtility 보다 유연하고 강력한 기능 제공
+
 
 
 
