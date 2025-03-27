@@ -11,12 +11,14 @@
             "id": "f910c98f2340fd6e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart-Excalidraw.md"
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "NetworkFlowChart-Excalidraw"
+              "icon": "lucide-file",
+              "title": "_감정읽기_Dev"
             }
           },
           {
@@ -186,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 283.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,8 +205,8 @@
   },
   "active": "f910c98f2340fd6e",
   "lastOpenFiles": [
-    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart-Excalidraw.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
     "Excalidraw",
