@@ -93,4 +93,4 @@ cv2.destroyAllWindows()
 🔹**json.dumps()**
 	데이터를 JSON 형식으로 변환하여 문자열로 만든다.
 	이를 통해 데잉터를 구조화된 텍스트 형태로 직렬화한다.
-🔹****
+🔹**connection.sendall**
