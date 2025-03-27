@@ -4,27 +4,41 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Study path:Works  ",
+      "query": "path:Study ",
+      "color": {
+        "a": 1,
+        "rgb": 10050774
+      }
+    },
+    {
+      "query": "path:Works  ",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
+    },
+    {
+      "query": "path:Lecture  ",
+      "color": {
+        "a": 1,
+        "rgb": 11261532
+      }
     }
   ],
   "collapse-display": true,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.49878892733564,
+  "lineSizeMultiplier": 1.49878892733564,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
-  "close": false
+  "scale": 0.7132754626224442,
+  "close": true
 }

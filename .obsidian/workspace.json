@@ -11,10 +11,14 @@
             "id": "f910c98f2340fd6e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "Works/_Work.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Work"
             }
           }
         ]
@@ -178,6 +182,8 @@
   },
   "active": "f910c98f2340fd6e",
   "lastOpenFiles": [
+    "Works/Layout_Dev.md",
+    "Works/_Work.md",
     "Study/Git/_Git.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Study/Git",
@@ -191,7 +197,6 @@
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources",
     "Works/250325_동특전/_동특전.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌 오가노이드_Dev.md",
-    "Works/_Layout_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntimeCustom-Python.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐",
     "README.md",
