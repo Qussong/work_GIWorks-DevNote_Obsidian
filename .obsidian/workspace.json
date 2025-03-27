@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing 2025-03-27 15.44.43.excalidraw.md"
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart-Excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-27 15.44.43.excalidraw"
+              "title": "NetworkFlowChart-Excalidraw"
             }
           },
           {
@@ -25,10 +25,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing 2025-03-27 15.44.43.excalidraw.md"
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart-Excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-27 15.44.43.excalidraw"
+              "title": "NetworkFlowChart-Excalidraw"
             }
           }
         ]
@@ -182,12 +182,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,10 +201,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8143b15a9106c5cf",
+  "active": "f910c98f2340fd6e",
   "lastOpenFiles": [
+    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart-Excalidraw.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing 2025-03-27 15.44.43.excalidraw.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
     "Excalidraw",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
     "Study/옵시디언/Obsidian Release.md",
@@ -217,8 +218,6 @@
     "Works/_Work.md",
     "Works/Layout_Dev.md",
     "Study/Git",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
     "conflict-files-obsidian-git.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/감정읽기-세부연출계획.png",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources/뇌-오가노이드-세부연출계획.png",
