@@ -22,6 +22,12 @@ Memo :
 **🔹요구 기능 및 기술**
 	- 파일 입출력 (JSON)
 
+### JSON 입출력
+
+#### JsonUtility
+
+#### Newtonsoft.Json
+
 
 
 ---
