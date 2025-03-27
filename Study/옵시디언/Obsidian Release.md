@@ -1,7 +1,8 @@
 refer : [옵시디언 노션처럼 페이지로 배포하는 법 url](https://dnd0707.tistory.com/27)
 
-### 사이트
+### 배포된 사이트
 [van-coding-note URL](https://van-coding-note.netlify.app/)
+[custom-domain](https://qussong.xyz/)
 ![600](myDigitalGardenDefault.png)
 ### 준비물
 1. Github Desktop

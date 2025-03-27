@@ -40,24 +40,23 @@ Memo :
 
 ### 코드 분석 및 테스트
 
-**🔹Source Code**
-	웹캠을 통해 얼굴을 인식하고 표정을 분석하는 코드
-	source code : [FaceRecogRuntime-Python](FaceRecogRuntime-Python.md)
-**🔹Custom Code**
-	성능을 고려하고 5Frame 으로 화면이 갱신되도록 수정
-	source code : [FaceRecogRuntimeCustom-Python](FaceRecogRuntimeCustom-Python.md)
+#### Source Code
+source code : [FaceRecogRuntime-Python](FaceRecogRuntime-Python.md)
+웹캠을 통해 얼굴을 인식하고 표정을 분석하는 코드
 
-### Python → Unity 통신
-
-#### Socket 통신
+#### Socket 통신 (Python → Unity)
+파이썬 코드에서 웹캠을 
 **🔹Python**
+	source code : [TCPEmotionSender-Python](TCPEmotionSender-Python.md)
 	- TCP 소켓을 통해 Unity에 전송 (서버 역할)
 	- 얼굴 인식 및 감정 데이터를 JSON 형식으로 변환
-	- source code : [TCPEmotionSender-Python](TCPEmotionSender-Python.md)
+	- 성능을 고려하고 5Frame 으로 화면이 갱신되도록 수정
+
 **🔹Unity**
+	source code : [TCPDataListener-Unity](TCPDataListener-Unity.md)
 	- C#에서 TCP 클라이언트를 사용하여 데이터 수신 (클라이언트 역할)
 	- JSON 데이터를 Unity의 객체로 파싱해 활용
-	- source code : [TCPDataListener-Unity](TCPDataListener-Unity.md)
 
+#### 
 
 ---
