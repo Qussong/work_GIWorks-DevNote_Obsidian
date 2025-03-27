@@ -29,6 +29,49 @@ Memo :
 - 클래스 타입만 직렬화 가능
 - 속성이 public 이거나 SerializeField 가 있어야 함
 - JSON 포맷이 단순한 경우만 직렬화하기 적절함
+```csharp
+using UnityEngine;
+
+[System.Serializable]
+public class PlayerData
+{
+    public string name;
+    public int score;
+}
+
+public class JsonExample
+{
+    public static string Serialize(PlayerData data)
+    {
+        return JsonUtility.ToJson(data, true); // JSON 변환
+    }
+
+    public static PlayerData Deserialize(string json)
+    {
+        return JsonUtility.FromJson<PlayerData>(json);
+    }
+}
+
+// 사용 예제
+PlayerData player = new PlayerData { name = "Hero", score = 100 };
+string json = JsonExample.Serialize(player);
+Debug.Log(json);
+
+PlayerData loadedPlayer = JsonExample.Deserialize(json);
+Debug.Log($"Loaded Player: {loadedPlayer.name}, Score: {loadedPlayer.score}");
+```
+
+🔹**ToJson(object,bool)**
+	`직렬화(Serialization)`는 객체나 데이터 구조를 파일, 메모리, 네트워크 전송 등을 통해 저장하거나 전달하기 위해 이진 또는 텍스트 형식으로 변환하는 과정을 의미한다.
+```csharp
+public static string ToJson(object obj, bool prettyPrint);
+```
+	 
+🔹**FromJson<T\>(string)**
+	`역직렬화(Deserialization)`는 직렬화된 데이터를 다시 원래의 객체나 데이터 구조로 복원하는 과정을 의미한다.
+```csharp
+public static T FromJson<T>(string json);
+```
 #### Newtonsoft.Json
 유니티에서 사용가능한 가장 강력한 JSON 라이브러리
 - Dictionary, List 등 다양한 자료형 지원

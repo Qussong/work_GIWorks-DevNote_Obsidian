@@ -41,10 +41,11 @@ Memo :
 ### 코드 분석 및 테스트
 
 **🔹Source Code**
-	[FaceRecogRuntime-Python](FaceRecogRuntime-Python.md)
+	웹캠을 통해 얼굴을 인식하고 표정을 분석하는 코드
+	source code : [FaceRecogRuntime-Python](FaceRecogRuntime-Python.md)
 **🔹Custom Code**
-	성능을 고려하고 5Frame 으로 화면이 갱신되도록 코드 수정
-	[FaceRecogRuntimeCustom-Python](FaceRecogRuntimeCustom-Python.md)
+	성능을 고려하고 5Frame 으로 화면이 갱신되도록 수정
+	source code : [FaceRecogRuntimeCustom-Python](FaceRecogRuntimeCustom-Python.md)
 
 ### Python → Unity 통신
 

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌-오가노이드_Dev.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 307.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -182,16 +182,16 @@
   },
   "active": "f910c98f2340fd6e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌-오가노이드_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
+    "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌-오가노이드_Dev.md",
+    "conflict-files-obsidian-git.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/감정읽기-세부연출계획.png",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources/뇌-오가노이드-세부연출계획.png",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources",
     "Works/250325_동특전/_동특전.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌 오가노이드_Dev.md",
     "Works/_Layout_Dev.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntimeCustom-Python.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐",
