@@ -38,14 +38,13 @@ Memo :
 	`shape_predicator_68_face_landmarks.dat` : 얼굴의 랜드마크를 예측하기 위한 dlib 모델
 	`emotion_model.hdf5` : 감정을 예측하기 위한 미리 학습된 딥러닝 모델
 
-### 코드 분석 및 테스트
-
+### Socket 통신 (Python → Unity)
+파이썬 코드로 웹캠에 접근해 얼굴에 대한 정보를 얻고, 이를 통해 분석한 데이터를 Unity로 전송한다.
 #### Source Code
 source code : [FaceRecogRuntime-Python](FaceRecogRuntime-Python.md)
 웹캠을 통해 얼굴을 인식하고 표정을 분석하는 코드
 
-#### Socket 통신 (Python → Unity)
-파이썬 코드에서 웹캠을 
+#### 코드 분석 및 테스트
 **🔹Python**
 	source code : [TCPEmotionSender-Python](TCPEmotionSender-Python.md)
 	- TCP 소켓을 통해 Unity에 전송 (서버 역할)
@@ -57,6 +56,8 @@ source code : [FaceRecogRuntime-Python](FaceRecogRuntime-Python.md)
 	- C#에서 TCP 클라이언트를 사용하여 데이터 수신 (클라이언트 역할)
 	- JSON 데이터를 Unity의 객체로 파싱해 활용
 
-#### 
+#### 패킷 통신
+
+패킷 통신은 데이터를 작은 패킷 단위로 
 
 ---
