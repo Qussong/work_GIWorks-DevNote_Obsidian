@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/_감정-읽기_Dev.md",
+                "file": "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌-오가노이드_Dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_감정-읽기_Dev"
+              "title": "_뇌-오가노이드_Dev"
             }
           }
         ]
@@ -183,14 +183,16 @@
   "active": "f910c98f2340fd6e",
   "lastOpenFiles": [
     "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌-오가노이드_Dev.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/감정읽기-세부연출계획.png",
+    "Works/250325_동특전/뇌오가노이드⭐⭐/Resources/뇌-오가노이드-세부연출계획.png",
+    "Works/250325_동특전/뇌오가노이드⭐⭐/Resources",
     "Works/250325_동특전/_동특전.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌 오가노이드_Dev.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Works/_Layout_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntimeCustom-Python.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정-읽기_Dev.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐",
     "README.md",
     "Study/옵시디언/Git Extension.md",
@@ -207,18 +209,15 @@
     "Study/옵시디언/Resources",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
     "Study/옵시디언",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/감정읽기-세부연출계획.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/라이브러리.png",
     "Works/동특전/감정읽기/감정읽기.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources",
     "Works/250325_동특전/감정읽기⭐⭐⭐",
     "Works/동특전/감정읽기",
     "Works/동특전/감정읽기/Resources/라이브러리.png",
-    "Works/동특전/감정읽기/Resources/감정읽기-세부연출계획.png",
     "Study/Resources",
     "Works/동특전/감정읽기/Resources",
     "Works/동특전/감정읽기",
-    "Works/250325_동특전",
     "S.md"
   ]
 }
