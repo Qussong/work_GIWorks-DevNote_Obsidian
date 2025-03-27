@@ -58,6 +58,8 @@ source code : [FaceRecogRuntime-Python](FaceRecogRuntime-Python.md)
 
 #### 패킷 통신
 
-패킷 통신은 데이터를 작은 패킷 단위로 
+패킷 통신은 데이터를 작은 패킷 단위로 나누어 네트워크를 통해 전송하는 방식이다.
+각 패킷에는 데이터(Payload)뿐만 아니라 수신자 정보를 포함한 헤더(Header)가 포함되어 있어야 하며, 목적지에서 패킷을 조립하여 원본 데이터로 복원된다.
+
 
 ---
