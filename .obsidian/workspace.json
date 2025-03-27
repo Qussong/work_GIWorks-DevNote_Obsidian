@@ -11,14 +11,24 @@
             "id": "f910c98f2340fd6e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
-                "mode": "source",
-                "source": false
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing 2025-03-27 15.44.43.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "TCPEmotionSender-Python"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-27 15.44.43.excalidraw"
+            }
+          },
+          {
+            "id": "c543a3f8fcdbf9eb",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing 2025-03-27 15.44.43.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-27 15.44.43.excalidraw"
             }
           }
         ]
@@ -78,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 270.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -189,12 +198,16 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f910c98f2340fd6e",
+  "active": "8143b15a9106c5cf",
   "lastOpenFiles": [
     "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing 2025-03-27 15.44.43.excalidraw.md",
+    "Excalidraw",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
     "Study/옵시디언/Obsidian Release.md",
     "Study/옵시디언/Markdown.md",
     "Study/옵시디언/Git Extension.md",
@@ -204,7 +217,6 @@
     "Works/_Work.md",
     "Works/Layout_Dev.md",
     "Study/Git",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
     "conflict-files-obsidian-git.md",
@@ -232,7 +244,6 @@
     "Works/동특전/감정읽기",
     "Works/동특전/감정읽기/Resources/라이브러리.png",
     "Study/Resources",
-    "Works/동특전/감정읽기/Resources",
     "S.md"
   ]
 }
