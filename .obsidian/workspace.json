@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,10 +206,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "62235c0d569be835",
+  "active": "c543a3f8fcdbf9eb",
   "lastOpenFiles": [
-    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart-Excalidraw.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
     "Excalidraw",
