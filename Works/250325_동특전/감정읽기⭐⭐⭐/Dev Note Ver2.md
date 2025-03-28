@@ -7,15 +7,14 @@
 ### <span style="background:lightgray">파일 입출력</span>
 
 #### 경로
-- Application.persistentDataPath
+- `Application.persistentDataPath`
 	해당 경로는 Unity 프로젝트 외부의 쓰기 가능한 경로를 제공한다.
 	해당 경로에 저장된 파일은 Unity가 관리하지 않기에 `.meta` 파일이 생성되지 않는다.
 
 ---
 
 # 코드 구현
-
-### 소켓통신
+### <span style="background:lightgray">소켓통신 (unity-python)</span>
 
 #### source code (python)
 ```python
@@ -34,6 +33,7 @@ print(f"Connected to Unity at {address}")
 
 connection.close()
 ```
+
 #### source code (unity)
 ```csharp
 TcpClient client;
@@ -54,6 +54,7 @@ void Start()
     }
 }
 ```
+
 #### output
 ![400](connectionTestOutput.png)
 출력값에 나온 54657은 클라(유니티)가 소켓 통신을 위해 자동으로 할당 받은 포트다.
@@ -63,3 +64,10 @@ void Start()
 
 프로그래밍 관점에서는 클라이언트는 서버의 IP와 포트를 사용하고, 서버는 연결된 클라이언트 소켓을 통해 통신을 처리하므로 클라이언트 포트를 직접 지정하거나 신경 쓰지 않아도 된다.
 
+### <span style="background:lightgray">경로전달</span>
+
+#### source code (unity)
+
+### source code (python)
+
+#### output
