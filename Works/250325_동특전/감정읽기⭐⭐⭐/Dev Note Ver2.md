@@ -187,7 +187,6 @@ public class Webcam : MonoBehaviour
 import socket
 import os
 import cv2
-import time
 
 # 함수1
 def start_server_socket(port):
