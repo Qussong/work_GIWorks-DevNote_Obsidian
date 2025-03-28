@@ -11,14 +11,12 @@
             "id": "c543a3f8fcdbf9eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
-                "mode": "source",
-                "source": false
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md"
               },
-              "icon": "lucide-file",
-              "title": "Dev Note Ver2"
+              "icon": "excalidraw-icon",
+              "title": "NetworkFlowChart"
             }
           },
           {
@@ -208,9 +206,10 @@
   },
   "active": "c543a3f8fcdbf9eb",
   "lastOpenFiles": [
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328155412_661.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/persistentDataPath.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/connectionTestOutput.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328134457_903.png",
