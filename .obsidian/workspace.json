@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Ver1 Dev Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_감정읽기_Dev"
+              "title": "Ver1 Dev Note"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/ExternalPath-Unity.md",
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ExternalPath-Unity"
+              "title": "TCPEmotionSender-Python"
             }
           },
           {
@@ -47,8 +47,7 @@
               "title": "NetworkFlowChart-Excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -220,15 +218,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a6ab1f912a65bd38",
+  "active": "f910c98f2340fd6e",
   "lastOpenFiles": [
+    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Ver1 Dev Note.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart-Excalidraw.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/ExternalPath-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
     "Excalidraw",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
     "Study/옵시디언/Obsidian Release.md",
     "Study/옵시디언/Markdown.md",
     "Study/옵시디언/Git Extension.md",
