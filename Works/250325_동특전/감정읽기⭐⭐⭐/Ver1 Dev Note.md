@@ -1,4 +1,4 @@
-# 프로젝트 아이디어
+# <프로젝트 아이디어>
 
 ### <span style="background:lightgray">Overview</span>
 
@@ -329,6 +329,7 @@ public class EmotionReceiver : MonoBehaviour
 }
 
 ```
+
 
 # 학습 내용
 ### <span style="background:lightgray">JSON 과 UTF-8</span>
