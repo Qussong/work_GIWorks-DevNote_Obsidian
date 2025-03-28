@@ -39,9 +39,11 @@ Memo :
 	`emotion_model.hdf5` : 감정을 예측하기 위한 미리 학습된 딥러닝 모델
 
 ### Version 1 : Python 이 Webcam 에 접근
-
-파이썬 코드로 웹캠에 접근해 얼굴에 대한 정보를 얻고, 이를 통해 분석한 데이터를 Unity로 전송한다.
+파이썬으로 웹캠에 접근해 얼굴에 대한 정보를 얻고, 이를 통해 분석한 데이터를 Unity로 전송한다.
 [Ver1 Dev Note](Ver1%20Dev%20Note.md)
+
+
+
 
 ### 파일 입출력
 
