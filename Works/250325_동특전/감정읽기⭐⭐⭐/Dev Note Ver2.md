@@ -253,3 +253,19 @@ server_socket.close()
 🔹**경로 전달**
 	![600](persistentDataPath.png)
 🔹이미지 Save/Read/Delete
+	![600](imageSRD.png)
+
+
+### <span style="background:lightgray">이미지 분석 & 데이터 전송</span>
+
+#### source code (python)
+```python
+
+```
+
+#### source code (unity)
+```csharp
+
+```
+#### output
+

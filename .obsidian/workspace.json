@@ -11,12 +11,14 @@
             "id": "c543a3f8fcdbf9eb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md"
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "NetworkFlowChart"
+              "icon": "lucide-file",
+              "title": "Dev Note Ver2"
             }
           },
           {
@@ -90,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 310.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -204,17 +206,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8143b15a9106c5cf",
+  "active": "c543a3f8fcdbf9eb",
   "lastOpenFiles": [
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328155624_117.png",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328155412_661.png",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/imageSRD.png",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328155624_117.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/persistentDataPath.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/connectionTestOutput.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328134457_903.png",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328134709_316.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/라이브러리.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
@@ -239,8 +242,6 @@
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntimeCustom-Python.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐",
     "README.md",
-    "Study/옵시디언/Resources/traceVault.png",
-    "Study/옵시디언/Resources/gitPlugin.png",
     "무제.canvas",
     "Study/옵시디언/Resources",
     "Study/옵시디언",
