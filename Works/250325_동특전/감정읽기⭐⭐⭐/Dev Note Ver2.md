@@ -240,7 +240,6 @@ while True:
             except Exception as e:
                 print(f"Failed to delete file: {e}")
 
-            start_time = time.time()    # 시작 시간 갱신
         else:
             print("Failed to load image")
                 
