@@ -64,11 +64,192 @@ void Start()
 
 프로그래밍 관점에서는 클라이언트는 서버의 IP와 포트를 사용하고, 서버는 연결된 클라이언트 소켓을 통해 통신을 처리하므로 클라이언트 포트를 직접 지정하거나 신경 쓰지 않아도 된다.
 
-### <span style="background:lightgray">경로전달</span>
+### <span style="background:lightgray">경로 전달 & 이미지 저장</span>
 
 #### source code (unity)
+```csharp
+using System;
+using System.IO;
+using System.Net.Sockets;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Webcam : MonoBehaviour
+{
+    TcpClient client;
+    Stream stream;
+    string path;
+
+    private WebCamTexture webcamTexture;
+    private float shutterTimer = 0;
+
+    void Start()
+    {
+        // Cam Check
+        foreach(var camera in WebCamTexture.devices)
+        {
+            Debug.Log("Webcam found : " + camera.name);
+        }
+
+        // Connection
+        try
+        {
+            // Python 소켓 서버와 연결
+            client = new TcpClient("127.0.0.1", 5000);
+            stream = client.GetStream();
+            Debug.Log("Connected to Python server.");
+
+            // Path 전송
+            path = Application.persistentDataPath;
+            SendData(path);
+            //Debug.Log($"Sent path to Python : {path}");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError("Connection Error : " + ex.Message);
+        }
+
+        // Generate Webcam Texture
+        webcamTexture = new WebCamTexture();
+        Image img = GetComponent<Image>();
+        if(null != img)
+        {
+            img.material = new Material(Shader.Find("UI/Default"));
+            img.material.mainTexture = webcamTexture;
+
+            // Start Webcam
+            webcamTexture.Play();
+
+            // 가로,세로 비율 계산
+            float aspectRatio = (float)webcamTexture.width / webcamTexture.height;
+            float newWidth = aspectRatio * img.rectTransform.rect.height;
+            img.rectTransform.sizeDelta = new Vector2(newWidth, img.rectTransform.rect.height);
+        }
+        else
+        {
+            Debug.LogError("Image 컴포넌트가 없습니다.");
+        }
+
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            SaveWebcamFrame();
+        }
+    }
+
+    private void SaveWebcamFrame()
+    {
+        // 텍스처 데이터 읽기
+        Texture2D snapshot = new Texture2D(webcamTexture.width, webcamTexture.height, TextureFormat.RGB24, false);
+        snapshot.SetPixels(webcamTexture.GetPixels());
+        snapshot.Apply();
+
+        // PNG 형식으로 저장
+        byte[] bytes = snapshot.EncodeToPNG();
+        string fileName = "test.jpg";
+        string filePath = Path.Combine(path, fileName);
+        File.WriteAllBytes(filePath, bytes);
+
+        SendData("PHOTO");
+    }
+
+    void OnDisable()
+    {
+        // 통신 종료 신호 서버로 명시적으로 전달
+        SendData("EXIT");
+
+        // Stop Webcam
+        webcamTexture.Stop();
+    }
+
+    void SendData(string data)
+    {
+        byte[] byteData = System.Text.Encoding.UTF8.GetBytes(data);
+        stream.Write(byteData, 0, byteData.Length);
+
+        // Signal
+        if("PHOTO" == data)
+            Debug.Log("Save Phto");
+        if("EXIT" == data)
+            Debug.Log("Sent shutdown signal to Server");
+    }
+
+}
+
+```
 
 #### source code (python)
+```python
 
+import socket
+import os
+import cv2
+import time
+
+# 함수1
+def start_server_socket(port):
+    host = '127.0.0.1'  # 로컬호스트, IP주소
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.bind((host, port))
+    server_socket.listen(1) # 클라이언트 연결 수 (1명만 연결)
+
+    print("Waiting for Unity to connect ...")
+    connection, address = server_socket.accept()    # Unity가 연결되기를 기다림
+    print(f"Connected to Unity at {address}")
+    return connection, server_socket
+
+# 함수2
+def recv_signal(connection):
+    data = connection.recv(1024)
+    if data:
+        message = data.decode('utf-8')
+        if "EXIT" == message.strip():
+            print("Shutdown signal received. Closing server...")
+            return True
+        if "PHOTO" == message.strip():
+            print("Client receive image.")
+            return False
+    return False
+
+# 메인 로직
+connection, server_socket = start_server_socket(5000)  # 소켓 생성 및 연결 대기
+data = connection.recv(1024)    # 1024 바이트 읽기
+path = data.decode('utf-8')     # UTF-8 로 디코딩
+
+while True:
+    # 클라이언트 신호 (PHTO, EXIT)
+    if recv_signal(connection):
+        break
+
+    # 이미지 출력
+    image_file = os.path.join(path, "test.jpg") # 파일 경로 생성
+    if os.path.exists(image_file):              # 파일 존재 여부 확인
+        print("Exist image file.")
+        image = cv2.imread(image_file)          # 이미지 파일 읽기
+        if image is not None:
+            print("Complete read image.")
+            cv2.imshow("Image", image) # 화면에 이미지 출력
+            cv2.waitKey(1)
+
+            try:
+                os.remove(image_file)   # 읽어온 이미지 삭제
+                print(f"Delete image.")
+            except Exception as e:
+                print(f"Failed to delete file: {e}")
+
+            start_time = time.time()    # 시작 시간 갱신
+        else:
+            print("Failed to load image")
+                
+# 연결 닫기
+cv2.destroyAllWindows()
+connection.close()
+server_socket.close()
+```
 #### output
-![600](persistentDataPath.png)
+🔹**경로 전달**
+	![600](persistentDataPath.png)
+🔹이미지 Save/Read/Delete
