@@ -135,8 +135,6 @@ cv2.destroyAllWindows()
 ```
 
 ### <span style="background:lightgray">Socket 통신 추가</span>
-
-
 #### source code (python)
 
 - TCP 소켓을 통해 Unity에 전송 (서버 역할)

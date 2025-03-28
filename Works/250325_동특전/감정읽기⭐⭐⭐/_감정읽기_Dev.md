@@ -38,19 +38,15 @@ Memo :
 	`shape_predicator_68_face_landmarks.dat` : 얼굴의 랜드마크를 예측하기 위한 dlib 모델
 	`emotion_model.hdf5` : 감정을 예측하기 위한 미리 학습된 딥러닝 모델
 
-### Version 1 : Python 이 Webcam 에 접근
+### Version 1 : Python 에서 Webcam 접근
 파이썬으로 웹캠에 접근해 얼굴에 대한 정보를 얻고, 이를 통해 분석한 데이터를 Unity로 전송한다.
 [Ver1 Dev Note](Ver1%20Dev%20Note.md)
 
+### Version 2 : Unity 에서 Webcam 접근
+
+[Ver2 Dev Note](Ver2%20Dev%20Note.md)
 
 
-
-### 파일 입출력
-
-#### 경로
-🔹**Application.persistentDataPath**
-	해당 경로는 Unity 프로젝트 외부의 쓰기 가능한 경로를 제공한다.
-	해당 경로에 저장된 파일은 Unity가 관리하지 않기에 `.meta` 파일이 생성되지 않는다.
 
 
 ---
