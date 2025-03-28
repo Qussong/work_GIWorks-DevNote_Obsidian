@@ -40,13 +40,13 @@ Memo :
 
 ### Version 1 : Python 에서 Webcam 접근
 파이썬으로 웹캠에 접근해 얼굴에 대한 정보를 얻고, 분석한 데이터를 소켓통신으로 Unity 에 전송한다.
-[Ver1 Dev Note](Ver1%20Dev%20Note.md)
+[Dev Note Ver1](Dev%20Note%20Ver1.md)
 
 ### Version 2 : Unity 에서 Webcam 접근
 Unity 에서 웹캠에 접근해 촬영되는 이미지를 얻고, 이를 외부 경로에 저장한다.
 저장된 이미지를 Python이 읽어와 사람 얼굴을 인식하고 표정을 분석한다.
 이후, 분석한 내용을 소켓통신으로 Unity에 전달한다.
-[Ver2 Dev Note](Ver2%20Dev%20Note.md)
+[Dev Note Ver2](Dev%20Note%20Ver2.md)
 
 
 
