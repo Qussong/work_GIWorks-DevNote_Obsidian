@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Ver2 Dev Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_감정읽기_Dev"
+              "title": "Ver2 Dev Note"
             }
           },
           {
@@ -220,10 +220,10 @@
   },
   "active": "f910c98f2340fd6e",
   "lastOpenFiles": [
+    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Ver1 Dev Note.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Ver2 Dev Note.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
