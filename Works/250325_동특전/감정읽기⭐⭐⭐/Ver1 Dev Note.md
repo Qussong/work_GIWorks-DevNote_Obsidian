@@ -1,11 +1,12 @@
+# 프로젝트 아이디어
 
-# 아이디어
+### <span style="background:lightgray">Overview</span>
 
 파이썬을 통해 웹캠에 접근하여 카메라를 통해 얼굴을 인식하고 표정을 분석함
 이렇게 분석된 데이터를 Unity 에 소켓통신으로 전달
 유니티는 전달받은 데이터를 가공하여 컨텐츠에 활용
 
-# 구현
+# 코드 구현
 
 ### <span style="background:lightgray">표정 분석</span>
 #### source code (python)
@@ -329,7 +330,7 @@ public class EmotionReceiver : MonoBehaviour
 
 ```
 
-
+# 학습 내용
 ### <span style="background:lightgray">JSON 과 UTF-8</span>
 
 #### UTF-8 의 장점
@@ -389,3 +390,4 @@ JSON은 간결한 데이터 구조를 제공하지만, 네트워크 전송의 �
 - 효율성 : 텍스트의 내용에 따라 필요한 바이트만 사용하기에, 단순한 텍스트에 적합하다.
 - 작동 원리 : 유니코드 코드 포인트를 읽고, 이를 바이트로 변환 -> 수신 측에서는 이 바이트들을 다시 유니코드 코드 포인트로 복원
 - 표현 방식 : '가' = `1110xxxx 10xxxxxx 10xxxxxx`
+
