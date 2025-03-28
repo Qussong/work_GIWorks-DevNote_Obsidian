@@ -296,7 +296,7 @@ if video_capture.Opened():
 cv2.destroyAllWindows()
 ```
 
-#### source code (unity,csharp)
+#### source code (unity)
 
 - C#에서 TCP 클라이언트를 사용하여 데이터 수신 (클라이언트 역할)
 - JSON 데이터를 Unity의 객체로 파싱해 활용

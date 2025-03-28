@@ -43,7 +43,9 @@ Memo :
 [Ver1 Dev Note](Ver1%20Dev%20Note.md)
 
 ### Version 2 : Unity 에서 Webcam 접근
-
+Unity 에서 웹캠에 접근해 촬영되는 이미지를 얻고, 이를 외부 경로에 저장한다.
+저장된 이미지를 Python이 읽어와 사람 얼굴을 인식하고 표정을 분석한다.
+이후, 소켓통신을 통해 분석한 내용 Unity에 전달한다.
 [Ver2 Dev Note](Ver2%20Dev%20Note.md)
 
 
