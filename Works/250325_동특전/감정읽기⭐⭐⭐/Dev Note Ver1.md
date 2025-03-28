@@ -1,5 +1,4 @@
 # 아이디어
-
 ### <span style="background:lightgray">Overview</span>
 
 파이썬을 통해 웹캠에 접근하여 카메라를 통해 얼굴을 인식하고 표정을 분석함
@@ -72,7 +71,6 @@ JSON은 간결한 데이터 구조를 제공하지만, 네트워크 전송의 �
 ---
 
 # 코드 구현
-
 ### <span style="background:lightgray">표정 분석</span>
 #### source code (python)
 ```python
