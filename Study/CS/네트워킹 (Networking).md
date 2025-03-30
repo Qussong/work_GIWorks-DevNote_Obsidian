@@ -1,6 +1,6 @@
 
 
-### 통신의 종류
+# 통신의 종류
 
 🔹소켓 통신
 	- TCP/IP 소켓 
@@ -13,3 +13,6 @@
 	- FTP
 	- SFTP
 🔹Bluetooth 및 근거리 통신(NFC)
+
+### <span style="background:lightgray">소켓 통신</span>
+
