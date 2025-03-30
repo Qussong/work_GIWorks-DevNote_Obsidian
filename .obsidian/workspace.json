@@ -11,12 +11,14 @@
             "id": "c543a3f8fcdbf9eb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md"
+                "file": "Study/CS/_Computer Science.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "NetworkFlowChart"
+              "icon": "lucide-file",
+              "title": "_Computer Science"
             }
           },
           {
@@ -203,10 +205,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f7e61dc5f8c68fa6",
+  "active": "c543a3f8fcdbf9eb",
   "lastOpenFiles": [
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
+    "Study/옵시디언/_Obsidian.md",
+    "Study/CS/_Computer Science.md",
+    "Study/CS",
+    "Study/Git/_Git.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328155412_661.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/imageSRD.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328155624_117.png",
@@ -224,8 +230,6 @@
     "Study/옵시디언/Obsidian Release.md",
     "Study/옵시디언/Markdown.md",
     "Study/옵시디언/Git Extension.md",
-    "Study/옵시디언/_Obsidian.md",
-    "Study/Git/_Git.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌-오가노이드_Dev.md",
     "Works/_Work.md",
     "Works/Layout_Dev.md",
@@ -246,7 +250,6 @@
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources",
     "Works/250325_동특전/감정읽기⭐⭐⭐",
     "Works/동특전/감정읽기",
-    "Study/Resources",
     "S.md"
   ]
 }
