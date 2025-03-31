@@ -374,13 +374,11 @@ server_socket.close()
 ### <span style="background:lightgray">데이터 전송 및 가공</span>
 
 #### source code (python)
-
 ```python
 
 ```
 
 #### source code (unity)
-
 ```csharp
 
 ```
