@@ -411,13 +411,64 @@ server_socket.close()
 이를 해결할 수 있는 방법은 아래와 같다.
 1. ✅ReadAsync 방식
 2. thread 방식
-
-#### source code (python)
-```python
-
-```
-
 #### source code (unity)
+Python이 분석한 데이터를 
 ```csharp
+private CancellationTokenSource cancelToken = null;
+private EmotionData receiveData = null;
 
+void Update()
+{
+	// 표정 분석 데이터 수신
+	_ = ReceiveDataAsync();
+}
+
+void OnDisable()
+{
+	// 비동기 취소 요청
+	cancelToken.Cancel();
+}
+
+private async Task ReceiveDataAsync()
+{
+	byte[] buffer = new byte[1024];
+	try
+	{
+		while (!cancelToken.Token.IsCancellationRequested)    // 지속적인 수신 루프
+		{
+			// 데이터 수신 시도
+			int bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length, cancelToken.Token);
+			if (bytesRead > 0)
+			{
+				// 수신된 데이터를 utf-8 문자열로 변환
+				string jsonData = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+				// 수신된 데이터 기반으로 Emotion 객체 초기화
+				receiveData = JsonUtility.FromJson<EmotionData>(jsonData);
+			}
+			else
+			{
+				// 데이터를 받지 못했음 연결이 닫히지 않았다면 계속 대기
+				Debug.Log("현재 데이터가 없음, 대기 중 ...");
+				await Task.Delay(100, cancelToken.Token);
+			}
+		}
+	}
+	catch (Exception ex)
+	{
+		string endMsg = "A task was canceled.";
+		if(endMsg.Equals(ex.Message))
+		{
+			Debug.Log("Connection to the server has been terminated successfully.");
+		}
+		else
+		{
+			Debug.LogError($"데이터 수신 중 요류 발생: {ex.Message}");
+		}
+	}
+}
 ```
+
+
+
+
+
