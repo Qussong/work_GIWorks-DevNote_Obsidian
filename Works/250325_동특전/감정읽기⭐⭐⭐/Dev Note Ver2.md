@@ -266,4 +266,4 @@ server_socket.close()
 
 ```
 #### output
-
+![500](Pasted%20image%2020250331090706.png)
