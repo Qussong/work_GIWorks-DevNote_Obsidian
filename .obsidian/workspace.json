@@ -11,24 +11,14 @@
             "id": "a302f2d2e65f5b67",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md"
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "NetworkFlowChart"
-            }
-          },
-          {
-            "id": "730f4802f69b8636",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "NetworkFlowChart"
+              "icon": "lucide-file",
+              "title": "Dev Note Ver2"
             }
           }
         ]
@@ -88,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5,
+    "width": 241.5,
     "collapsed": true
   },
   "right": {
@@ -203,13 +193,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "84c78b202abc71a7",
+  "active": "a302f2d2e65f5b67",
   "lastOpenFiles": [
+    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart 1.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/_동특전.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/_감정읽기_Dev.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted image 20250331091055.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted image 20250331090706.png",
     "Study/CS/_Computer Science.md",
