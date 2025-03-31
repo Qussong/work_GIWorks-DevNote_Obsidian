@@ -37,10 +37,11 @@
 	- 실시간 사용자 경험 제공 (게임, 애니메이션, 등...)
 #### 동기식 데이터 읽기 (Stream.Read)
 ```csharp
-int byteRead = stream.Read(data, 0, data.Length);
-// data : 
-// 0 :
-// data.Length : 
+public abstract int Read(byte[] buffer, int offset, int count);
+// buffer : 읽어온 데이터를 저장할 공간
+// offset : 데이터가 저장이 시작될 위치
+// count : 읽으려는 데이터의 최대 크기 
+// return : 실제로 읽은 바이트 수 (읽은 데이터의 크기)
 ```
 Read() 는 작업이 완료될 때까지 호출을 블로킹한다. 즉, 데이터 읽기가 완료되기 전까지 다른 작업을 진행하지 않는다.
 스트림의 끝에 도달하면 읽은 바이트 수가 0으로 반환되며, 이를 통해 스트림의 종료 상태를 감지할 수 있다.
