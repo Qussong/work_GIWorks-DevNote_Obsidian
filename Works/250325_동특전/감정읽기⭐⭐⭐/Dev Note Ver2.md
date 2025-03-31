@@ -50,7 +50,7 @@ Read() 는 작업이 완료될 때까지 호출을 블로킹한다. 즉, 데이�
 Unity 에서 비동기적으로 소켓 통신 데이터를 수신하려면 C#의 비동기 프로그래밍 방식을 활용하여 TcpClient 와 NetworkStream을 조합하는 방법이 가장 적합하다.
 `aync` 와 `await` 키워드를 사용하여 데이터를 처리할 수 있다.
 🔹**ReadAsync()**
-해당 함수는 기존 연결에 관계없이 적용할 수 있으며, 백그라운드에서 데이터를 읽어와 다른 작업과 병렬로 처리할 수 있다.
+	해당 함수는 기존 연결에 관계없이 적용할 수 있으며, 백그라운드에서 데이터를 읽어와 다른 작업과 병렬로 처리할 수 있다.
 
 
 ### <span style="background:lightgray">Python</span>
@@ -389,6 +389,12 @@ server_socket.close()
 ![500](Pasted%20image%2020250331090706.png)
 
 ### <span style="background:lightgray">데이터 전송 및 가공</span>
+
+현재 동기식으로 1FPS 의 속도로 웹캠에 찍히는 장면을 파일 입출력으로 외부에 저장하고, 서버 역할을 하는 Python 에서 해당 파일을 읽어오고 있다.
+때문에 Python 에서 분석한 해당 내용을 Unity 에서 받되, 블로킹 되어 메인 로직이 멈추면 안된다.
+이를 해결할 수 있는 방법은 아래와 같다.
+1. ReadAsync 방식 : 
+2. thread 방식 : 
 
 #### source code (python)
 ```python
