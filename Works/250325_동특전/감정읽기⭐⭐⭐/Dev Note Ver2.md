@@ -393,8 +393,8 @@ server_socket.close()
 현재 동기식으로 1FPS 의 속도로 웹캠에 찍히는 장면을 파일 입출력으로 외부에 저장하고, 서버 역할을 하는 Python 에서 해당 파일을 읽어오고 있다.
 때문에 Python 에서 분석한 해당 내용을 Unity 에서 받되, 블로킹 되어 메인 로직이 멈추면 안된다.
 이를 해결할 수 있는 방법은 아래와 같다.
-1. ReadAsync 방식 : 
-2. thread 방식 : 
+1. ReadAsync 방식
+2. thread 방식
 
 #### source code (python)
 ```python
