@@ -285,47 +285,49 @@ server_socket.close()
 
 #### source code (python)
 ```python
-# 이미지
-image_path = os.path.join(path, "test.jpg") # 파일 경로 생성
-if os.path.exists(image_path):              # 파일 존재 여부 확인
-	print("Exist image file.")
-	image = cv2.imread(image_path)          # 이미지 파일 읽기
+    # 이미지
+    image_path = os.path.join(path, "test.jpg") # 파일 경로 생성
+    if os.path.exists(image_path):              # 파일 존재 여부 확인
+        print("Exist image file.")
+        image = cv2.imread(image_path)          # 이미지 파일 읽기
 
-	# 이미지 로드 실패
-	if image is None:
-		print("Failed to load image")
-		continue
+        # 이미지 로드 실패
+        if image is None:
+            print("Failed to load image")
+            continue
 
-	# 이미지 로드 성공
-	print("Complete read image.")
+        # 이미지 로드 성공
+        print("Complete read image.")
 
-	# 이미지 리사이징
-	original_height, original_width = image.shape[:2]
-	scale = 0.3
-	new_width = int(original_width * scale)
-	new_height = int(original_height * scale)
-	resized_image = cv2.resize(image, (new_width, new_height),
-											interpolation=cv2.INTER_AREA)
+        # 이미지 리사이징
+        original_height, original_width = image.shape[:2]
+        scale = 0.3
+        new_width = int(original_width * scale)
+        new_height = int(original_height * scale)
+        resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_AREA)
 
-	# 이미지 분석을 위해 흑백 사진 변환
-	gray_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
-	faces = face_cascade.detectMultiScale(gray_image, scaleFactor=1.1, 
-										minNeighbors=5, minSize=(30, 30))
-	face_data = []  # 얼굴의 감정 데이터를 담을 리스트
+        # 이미지 분석을 위해 흑백 사진 변환
+        gray_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
+        faces = face_cascade.detectMultiScale(gray_image, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+        face_data = []  # 얼굴의 감정 데이터를 담을 리스트
 
-	#
-	for (x, y, w, h) in faces:
-		cv2.rectangle(resized_image, (x, y), (x+w, y+h), (0, 255, 0), 2)
-		face_roi = gray_image[y:y+h, x:x+w]
-		face_roi = cv2.resize(face_roi, (64, 64))
-		face_roi = np.expand_dims(face_roi, axis=-1)
-		face_roi = np.expand_dims(face_roi, axis=0)
-		face_roi = face_roi / 255.0
-		output = model.predict(face_roi)[0]
-		expression_index = np.argmax(output)
-		expression_label = expression_labels[expression_index]
-		cv2.putText(resized_image, expression_label, (x, y-10),
-					cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+        # 얼굴 탐지 및 박스 그리기
+        for (x, y, w, h) in faces:
+            # 탐지된 얼굴 영역을 사각형으로 시각화
+            cv2.rectangle(resized_image, (x, y), (x+w, y+h), (0, 255, 0), 2)    # 좌상단, 우하단, 사각형의 색상, 선의 두께
+            # 얼굴 ROI(Region of Interest) 추출 및 전처리
+            face_roi = gray_image[y:y+h, x:x+w] # 흑백 사진으로부터 얼굴의 영역을 잘라낸다.
+            face_roi = cv2.resize(face_roi, (64, 64))   # 모델의 입력 크기에 맞게 ROI 를 64x64 크기로 리사이즈
+            face_roi = np.expand_dims(face_roi, axis=-1)# 차원을 확장하여 height,width,channels 형식으로 만든다 (흑백 이미지이기에 채널이 1개)
+            face_roi = np.expand_dims(face_roi, axis=0) # 다시 차원을 확장하여 모델 입력 형식인 (batch_size,height,width,channels)로 만든다
+            face_roi = face_roi / 255.0 # 픽셀 값을 [0,1]범위로 정규화하여 모델의 입력 값으로 적합하게 변환
+            # 모델 예측 및 감정 분류
+            output = model.predict(face_roi)[0] # 전처리된 얼굴 이미지를 감정 분석 모델에 입력
+            expression_index = np.argmax(output)# 가장 높은 확률을 가진 감정의 인덱스 반환
+            expression_label = expression_labels[expression_index]  # 인덱스에 해당하는 감정 레이블 반환
+            # 결과를 이미지에 출력
+            cv2.putText(resized_image, expression_label, (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)  # 감정 레이블을 탐지된 얼굴 상단에 텍스트로 표시
+
 ```
 
 #### output
