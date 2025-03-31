@@ -42,13 +42,28 @@
 Python에서 데이터를 키-값(key-value) 쌍으로 저장하는 데이터 구조
 🔹**구조**
 	딕셔너리는 Python에서 `{key:value}` 형식으로 데이터를 저장한다.
+	각 키는 고유하며, 중복될 수 없다.
 ```python
 # 빈 딕셔너리
 my_dict = {}
 # 키와 값을 가지는 딕셔너리
 person = {"name": "Alice", "age": 25, "city": "Seoul"}
 ```
+🔹**주요 특징**
+	- 키는 고유한 값이다.
+	- 값은 중볼 가능하다.
+	- Python 3.7 이후로 딕셔너리는 입력된 순서를 유지한다.
+🔹**값 추가 및 수정 작업**
+```python
+person = {"name": "Alice", "age":25}
+# 값 접근하기
+print(person["name"]) # Alice
+# 값 추가 및 수정하기
 
+# 값 삭제하기
+
+
+```
 
 ---
 
