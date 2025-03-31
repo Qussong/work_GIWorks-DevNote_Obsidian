@@ -35,14 +35,16 @@
 	- 파입 입출력 작업
 	- 데이터베이스와의 비동기 통신
 	- 실시간 사용자 경험 제공 (게임, 애니메이션, 등...)
-
-### 데이터 읽기
-
 #### 동기식 데이터 읽기 (Stream.Read)
+```csharp
+int byteRead = stream.Read(data, 0, data.Length);
+// data : 
+// 0 :
+// data.Length : 
+```
 Read() 는 작업이 완료될 때까지 호출을 블로킹한다. 즉, 데이터 읽기가 완료되기 전까지 다른 작업을 진행하지 않는다.
 스트림의 끝에 도달하면 읽은 바이트 수가 0으로 반환되며, 이를 통해 스트림의 종료 상태를 감지할 수 있다.
 스트림이 닫혀있거나 읽기 작업이 지원되지 않을 경우, 예외가 발생한다. (IOException, ObjectDisposedException)
-
 ### 비동기 데이터 읽기 (Stream.ReadAsync)
 
 
