@@ -45,10 +45,10 @@ int byteRead = stream.Read(data, 0, data.Length);
 Read() 는 작업이 완료될 때까지 호출을 블로킹한다. 즉, 데이터 읽기가 완료되기 전까지 다른 작업을 진행하지 않는다.
 스트림의 끝에 도달하면 읽은 바이트 수가 0으로 반환되며, 이를 통해 스트림의 종료 상태를 감지할 수 있다.
 스트림이 닫혀있거나 읽기 작업이 지원되지 않을 경우, 예외가 발생한다. (IOException, ObjectDisposedException)
-### 비동기 데이터 읽기 (Stream.ReadAsync)
+#### 비동기 데이터 읽기 (Stream.ReadAsync)
 
 
-### Python
+### <span style="background:lightgray">Python</span>
 
 #### 딕셔너리(Dictionary)
 Python에서 데이터를 키-값(key-value) 쌍으로 저장하는 데이터 구조
