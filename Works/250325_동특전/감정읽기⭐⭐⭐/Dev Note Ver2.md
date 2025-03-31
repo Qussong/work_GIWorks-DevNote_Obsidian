@@ -47,6 +47,8 @@ Read() 는 작업이 완료될 때까지 호출을 블로킹한다. 즉, 데이�
 스트림의 끝에 도달하면 읽은 바이트 수가 0으로 반환되며, 이를 통해 스트림의 종료 상태를 감지할 수 있다.
 스트림이 닫혀있거나 읽기 작업이 지원되지 않을 경우, 예외가 발생한다. (IOException, ObjectDisposedException)
 #### 비동기 데이터 읽기 (Stream.ReadAsync)
+Unity 에서 비동기적으로 소켓 통신 데이터를 읽어오려면 C#의 비동기 프로그래밍 방식을 활용하여 TcpClient 와 NetworkStream을 조합하는 방법이 가장 적합하다.
+`aync` 와 `await` 키워드를 사용하여 데이터를 처리할 수 있다.
 
 
 ### <span style="background:lightgray">Python</span>
