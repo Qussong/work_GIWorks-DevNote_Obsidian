@@ -56,13 +56,24 @@ person = {"name": "Alice", "age": 25, "city": "Seoul"}
 🔹**값 추가 및 수정 작업**
 ```python
 person = {"name": "Alice", "age":25}
+
 # 값 접근하기
 print(person["name"]) # Alice
+print(person["age"]) # 25
+
 # 값 추가 및 수정하기
+person["age"] = 26
+person["city"] = "Seoul"
+print(person) # {'name': 'Alice', 'age': 25, 'city': 'Seoul'}
 
 # 값 삭제하기
+del person["city"]
+print(person) # {'name': 'Alice', 'age': 25}
 
-
+# 키와 값 모두 확인하기
+print(person.keys()) # dict_keys(['name', 'age'])
+print(person.values()) # dict_values(['Alice', 25])
+print(person.items()) # dict_items([('name', 'Alice'), ('age', 25)])
 ```
 
 ---
