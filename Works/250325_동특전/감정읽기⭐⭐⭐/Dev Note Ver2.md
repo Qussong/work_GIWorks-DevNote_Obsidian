@@ -281,18 +281,58 @@ server_socket.close()
 	![600](imageSRD.png)
 
 
-### <span style="background:lightgray">이미지 분석 & 데이터 전송</span>
+### <span style="background:lightgray">이미지 분석</span>
 
 #### source code (python)
 ```python
+# 이미지
+image_path = os.path.join(path, "test.jpg") # 파일 경로 생성
+if os.path.exists(image_path):              # 파일 존재 여부 확인
+	print("Exist image file.")
+	image = cv2.imread(image_path)          # 이미지 파일 읽기
 
+	# 이미지 로드 실패
+	if image is None:
+		print("Failed to load image")
+		continue
+
+	# 이미지 로드 성공
+	print("Complete read image.")
+
+	# 이미지 리사이징
+	original_height, original_width = image.shape[:2]
+	scale = 0.3
+	new_width = int(original_width * scale)
+	new_height = int(original_height * scale)
+	resized_image = cv2.resize(image, (new_width, new_height),
+											interpolation=cv2.INTER_AREA)
+
+	# 이미지 분석을 위해 흑백 사진 변환
+	gray_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
+	faces = face_cascade.detectMultiScale(gray_image, scaleFactor=1.1, 
+										minNeighbors=5, minSize=(30, 30))
+	face_data = []  # 얼굴의 감정 데이터를 담을 리스트
+
+	#
+	for (x, y, w, h) in faces:
+		cv2.rectangle(resized_image, (x, y), (x+w, y+h), (0, 255, 0), 2)
+		face_roi = gray_image[y:y+h, x:x+w]
+		face_roi = cv2.resize(face_roi, (64, 64))
+		face_roi = np.expand_dims(face_roi, axis=-1)
+		face_roi = np.expand_dims(face_roi, axis=0)
+		face_roi = face_roi / 255.0
+		output = model.predict(face_roi)[0]
+		expression_index = np.argmax(output)
+		expression_label = expression_labels[expression_index]
+		cv2.putText(resized_image, expression_label, (x, y-10),
+					cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
 ```
 
-
-#### source code (unity)
-```csharp
-
-```
-🔹
 #### output
 ![500](Pasted%20image%2020250331090706.png)
+
+### <span style="background:lightgray">데이터 전송 및 가공</span>
+
+#### source code (python)
+
+#### source code (unity)
