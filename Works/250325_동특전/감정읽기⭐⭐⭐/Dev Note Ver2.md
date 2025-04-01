@@ -477,6 +477,17 @@ private async Task ReceiveDataAsync()
 		}
 	}
 }
+
+private void PrintFaceInfo()
+{
+	Debug.LogWarning($"Face Count : {receiveData.faceCount}");
+	int idx = 1;
+	foreach(var face in receiveData.faces)
+	{
+		Debug.Log($"{idx}.\nExpression : {face.expression} ({face.expressionIdx})\n" +
+			$"Position : ({face.position.x}, {face.position.y}, {face.position.width}, {face.position.height})");
+	}
+}
 ```
 
 
