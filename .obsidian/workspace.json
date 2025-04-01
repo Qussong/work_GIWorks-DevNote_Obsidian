@@ -10,7 +10,7 @@
           {
             "id": "1cc362324df1c2f1",
             "type": "tabs",
-            "dimension": 70.0487012987013,
+            "dimension": 28.40909090909091,
             "children": [
               {
                 "id": "a302f2d2e65f5b67",
@@ -29,7 +29,7 @@
           {
             "id": "0300087c445e12b1",
             "type": "tabs",
-            "dimension": 29.9512987012987,
+            "dimension": 71.5909090909091,
             "children": [
               {
                 "id": "3f9a67b7f6f9b428",
@@ -220,10 +220,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a302f2d2e65f5b67",
+  "active": "3f9a67b7f6f9b428",
   "lastOpenFiles": [
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted image 20250401110905.png",
     "Works/250325_동특전/동특전_진행사항.md",
     "Works/250325_동특전/_동특전.md",
