@@ -52,6 +52,7 @@ Unity 에서 비동기적으로 소켓 통신 데이터를 수신하려면 C#의
 🔹**ReadAsync()**
 	해당 함수는 기존 연결에 관계없이 적용할 수 있으며, 백그라운드에서 데이터를 읽어와 다른 작업과 병렬로 처리할 수 있다.
 
+
 ### <span style="background:lightgray">JsonUtility</span>
 
 #### 직렬화 해제(Deserialization)
