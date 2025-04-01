@@ -423,7 +423,7 @@ server_socket.close()
 1. ✅ReadAsync 방식
 2. thread 방식
 #### source code (unity)
-Python이 분석한 데이터를 
+Python이 분석한 데이터를 소켓통신으로 unity에 전송하고 unity 는 Json 으로 해당 데이터를 받아 가공한다.
 ```csharp
 private CancellationTokenSource cancelToken = null;
 private EmotionData receiveData = null;
