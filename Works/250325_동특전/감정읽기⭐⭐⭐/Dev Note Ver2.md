@@ -10,6 +10,8 @@
 - `Application.persistentDataPath`
 	해당 경로는 Unity 프로젝트 외부의 쓰기 가능한 경로를 제공한다.
 	해당 경로에 저장된 파일은 Unity가 관리하지 않기에 `.meta` 파일이 생성되지 않는다.
+### <span style="background:lightgray">통신</span>
+
 #### 소켓통신
 🔹**TcpClient.GetStream()**
 	유니티에서 TCP 통신을 구현할 때 사용하는 메서드
@@ -50,7 +52,8 @@ Read() 는 작업이 완료될 때까지 호출을 블로킹한다. 즉, 데이�
 Unity 에서 비동기적으로 소켓 통신 데이터를 수신하려면 C#의 비동기 프로그래밍 방식을 활용하여 TcpClient 와 NetworkStream을 조합하는 방법이 가장 적합하다.
 `aync` 와 `await` 키워드를 사용하여 데이터를 처리할 수 있다.
 🔹**ReadAsync()**
-	해당 함수는 기존 연결에 관계없이 적용할 수 있으며, 백그라운드에서 데이터를 읽어와 다른 작업과 병렬로 처리할 수 있다.
+	해당 함수는 기존 연결에 관계없이 적용할 수 있으며, **백그라운드에서 데이터를 읽어와 다른 작업과 병렬로 처리**할 수 있다.
+
 
 
 ### <span style="background:lightgray">JsonUtility</span>
