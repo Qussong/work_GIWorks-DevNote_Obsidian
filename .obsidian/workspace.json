@@ -10,7 +10,7 @@
           {
             "id": "0300087c445e12b1",
             "type": "tabs",
-            "dimension": 22.564935064935064,
+            "dimension": 64.69155844155844,
             "children": [
               {
                 "id": "fa4cf6bfe34f4613",
@@ -29,7 +29,7 @@
           {
             "id": "e62bd2dae2060c7b",
             "type": "tabs",
-            "dimension": 77.43506493506493,
+            "dimension": 35.30844155844156,
             "children": [
               {
                 "id": "b176a45e6b10a98f",
@@ -220,11 +220,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b176a45e6b10a98f",
+  "active": "fa4cf6bfe34f4613",
   "lastOpenFiles": [
+    "Works/250325_동특전/기획/기획을 도와주는 개발.md",
     "Works/250325_동특전/기획/Resources/Pasted image 20250402133125.png",
     "Works/250325_동특전/기획/Drawing_기획.md",
-    "Works/250325_동특전/기획/기획을 도와주는 개발.md",
     "Works/250325_동특전/기획/Resources/Pasted Image 20250402112228_285.png",
     "Works/250325_동특전/기획/Resources",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_NetworkFlowChart.md",
@@ -250,7 +250,6 @@
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328155624_117.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/persistentDataPath.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/connectionTestOutput.png",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Resources/Pasted Image 20250328134457_903.png",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPEmotionSender-Python.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/TCPDataListener-Unity.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/FaceRecogRuntime-Python.md",
