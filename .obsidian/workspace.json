@@ -10,7 +10,7 @@
           {
             "id": "0300087c445e12b1",
             "type": "tabs",
-            "dimension": 68.26298701298701,
+            "dimension": 22.564935064935064,
             "children": [
               {
                 "id": "fa4cf6bfe34f4613",
@@ -29,7 +29,7 @@
           {
             "id": "e62bd2dae2060c7b",
             "type": "tabs",
-            "dimension": 31.737012987012985,
+            "dimension": 77.43506493506493,
             "children": [
               {
                 "id": "b176a45e6b10a98f",
@@ -220,10 +220,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fa4cf6bfe34f4613",
+  "active": "b176a45e6b10a98f",
   "lastOpenFiles": [
-    "Works/250325_동특전/기획/기획을 도와주는 개발.md",
+    "Works/250325_동특전/기획/Resources/Pasted image 20250402133125.png",
     "Works/250325_동특전/기획/Drawing_기획.md",
+    "Works/250325_동특전/기획/기획을 도와주는 개발.md",
     "Works/250325_동특전/기획/Resources/Pasted Image 20250402112228_285.png",
     "Works/250325_동특전/기획/Resources",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_NetworkFlowChart.md",
