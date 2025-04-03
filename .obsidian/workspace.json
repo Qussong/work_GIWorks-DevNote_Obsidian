@@ -11,14 +11,12 @@
             "id": "b176a45e6b10a98f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Works/250325_동특전/기획/기획을 도와주는 개발.md",
-                "mode": "source",
-                "source": false
+                "file": "Works/250325_동특전/기획/Drawing_기획.md"
               },
-              "icon": "lucide-file",
-              "title": "기획을 도와주는 개발"
+              "icon": "excalidraw-icon",
+              "title": "Drawing_기획"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5,
-    "collapsed": true
+    "width": 263.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -194,8 +191,8 @@
   },
   "active": "b176a45e6b10a98f",
   "lastOpenFiles": [
-    "Works/250325_동특전/기획/Drawing_기획.md",
     "Works/250325_동특전/기획/기획을 도와주는 개발.md",
+    "Works/250325_동특전/기획/Drawing_기획.md",
     "Works/250325_동특전/_동특전.md",
     "Works/250325_동특전/기획/Resources/temp_1743581930948.png",
     "Works/250325_동특전/기획/Resources/temp_1743581926306.png",
