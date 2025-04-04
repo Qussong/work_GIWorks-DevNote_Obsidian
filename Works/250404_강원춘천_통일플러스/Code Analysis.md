@@ -83,3 +83,5 @@ private void PrintPage(object sender, PrintPageEventArgs e)
 
 ### <span style="background:lightgray">WebCamManager class</span>
 
+Unity 와 OpenCV 를 활용하여 웹캠을 실시간으로 불러오고, 영상 위에 배경 텍스처나 이미지를 합성하는 기능을 담당하는 매니저 클래스.
+
