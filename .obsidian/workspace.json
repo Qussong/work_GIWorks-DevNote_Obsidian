@@ -11,12 +11,14 @@
             "id": "b176a45e6b10a98f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/기획/Drawing_기획.md"
+                "file": "Works/250325_동특전/기획/기획을 도와주는 개발.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing_기획"
+              "icon": "lucide-file",
+              "title": "기획을 도와주는 개발"
             }
           }
         ]
@@ -191,12 +193,12 @@
   },
   "active": "b176a45e6b10a98f",
   "lastOpenFiles": [
+    "Works/250325_동특전/기획/Drawing_기획.md",
     "Works/250325_동특전/기획/Resources/Pasted Image 20250403110031_126.png",
     "Works/250325_동특전/기획/Resources/free-icon-head-158766.png",
     "Works/250325_동특전/기획/Resources/free-icon-user-215504.png",
     "Works/250325_동특전/기획/Resources/Pasted Image 20250403095522_338.png",
     "Works/250325_동특전/기획/기획을 도와주는 개발.md",
-    "Works/250325_동특전/기획/Drawing_기획.md",
     "Works/250325_동특전/_동특전.md",
     "Works/250325_동특전/기획/Resources/temp_1743581930948.png",
     "Works/250325_동특전/기획/Resources/temp_1743581926306.png",
@@ -204,7 +206,6 @@
     "Works/250325_동특전/기획/Resources/brain.png",
     "Works/250325_동특전/기획/Resources/Pasted Image 20250402112228_285.png",
     "Works/250325_동특전/기획/Resources/Pasted Image 20250402140100_596.png",
-    "Works/250325_동특전/기획/Resources/Pasted Image 20250402140201_134.png",
     "Works/250325_동특전/기획/Resources",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_NetworkFlowChart.md",
     "Works/250325_동특전/동특전_진행사항.md",
