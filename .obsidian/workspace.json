@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Code Analysis"
             }
+          },
+          {
+            "id": "d99a8d9f07c4c6d6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing_PhotoKioskAnalysis"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5,
-    "collapsed": true
+    "width": 263.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -193,10 +205,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3049df957606a127",
+  "active": "8143b15a9106c5cf",
   "lastOpenFiles": [
-    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
+    "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
+    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
     "Works/250404_강원춘천_통일플러스/Resources/Pasted image 20250404144556.png",
     "Works/250404_강원춘천_통일플러스/Resources",
     "Works/250325_동특전/_동특전_Dev.md",
@@ -238,7 +251,6 @@
     "Study/Git",
     "conflict-files-obsidian-git.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources",
-    "Works/250325_동특전/뇌오가노이드⭐⭐/_뇌 오가노이드_Dev.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐",
     "무제.canvas",
     "Study/옵시디언/Resources"
