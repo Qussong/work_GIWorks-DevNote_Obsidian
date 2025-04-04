@@ -1,0 +1,27 @@
+### <span style="background:lightgray">PrinterManager.PrintImage()</span>
+
+```csharp
+public async void PrintImage(string filePath)
+{
+	printFilePath = filePath;
+
+	PrintDocument printDocument = new PrintDocument();
+
+	printDocument.DefaultPageSettings.PaperSize = new PaperSize("4x6", 400, 600);
+	printDocument.DefaultPageSettings.Margins = new Margins(0, 0, 0, 0);
+	
+	printDocument.PrintPage += PrintPage; // Add event handler
+
+	try
+	{
+		// 프린트 작업을 비동기로 실행
+		await Task.Run(() => printDocument.Print());
+		Debug.Log("Print Start");
+	} 
+	catch (Exception e)
+	{
+		Debug.LogError("An error occurred while printing: " + e.Message);
+	}
+}
+```
+
