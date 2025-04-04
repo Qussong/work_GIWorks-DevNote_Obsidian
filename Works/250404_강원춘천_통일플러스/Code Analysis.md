@@ -80,3 +80,6 @@ private void PrintPage(object sender, PrintPageEventArgs e)
 	}
 }
 ```
+
+### <span style="background:lightgray">WebCamManager class</span>
+
