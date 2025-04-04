@@ -32,7 +32,7 @@ public async void PrintImage(string filePath)
 ```
 
 ### <span style="background:lightgray">PrintPage</span>
-
+실제 이미지를 페이지에 출력하는 핵심 로직이 들어 있는 부분으로 프린트할 이미지를 페이지 크기에 맞춰 스케일링하거나, 중앙 정렬하는 방식이 들어있다.
 ```csharp
 private void PrintPage(object sender, PrintPageEventArgs e)
 {
