@@ -2,6 +2,8 @@
 
 ### 기획 및 내용
 
+![](Pasted%20image%2020250407111114.png)
+
 ---
 # <span style="background:lightgray">Install & Repair</span>
 ### N회차
