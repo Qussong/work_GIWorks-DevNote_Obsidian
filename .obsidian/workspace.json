@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Code Analysis"
             }
+          },
+          {
+            "id": "4b24a56f3dc45877",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Works/250325_동특전/뇌오가노이드⭐⭐/Drawing_flow.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing_flow"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 254.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,10 +204,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b176a45e6b10a98f",
+  "active": "4b24a56f3dc45877",
   "lastOpenFiles": [
-    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_flow.md",
+    "Works/250325_동특전/뇌오가노이드⭐⭐/Drawing_flow.md",
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
+    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
     "Works/250325_동특전/_동특전_Dev.md",
     "Works/_Work.md",
@@ -216,7 +231,6 @@
     "Works/250325_동특전/기획/Resources/free-icon-user-215504.png",
     "Works/250325_동특전/_동특전.md",
     "Works/250325_동특전/기획/Resources",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_NetworkFlowChart.md",
     "Works/250325_동특전/동특전_진행사항.md",
     "Works/250325_동특전/기획",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
@@ -234,7 +248,6 @@
     "Excalidraw",
     "Study/옵시디언/Obsidian Release.md",
     "Study/옵시디언/Markdown.md",
-    "Study/옵시디언/Git Extension.md",
     "Study/Git",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources",
     "Works/250325_동특전/뇌오가노이드⭐⭐",
