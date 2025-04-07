@@ -1,4 +1,4 @@
-# <span style="background:#f5f5dc">Content</span>
+# <span style="background:lightgray">Content</span>
 
 ### 기획 및 내용
 | Zone    | Corner   | Item                            | No        | 연출개요                                                                        | 예상난이도 |
@@ -8,7 +8,7 @@
 ![500](temp_1743988996774.png)
 
 ---
-# <span style="background:#f5f5dc">Install & Repair</span>
+# <span style="background:lightgray">Install & Repair</span>
 ### N회차
 Date : 
 Memo :
@@ -16,7 +16,7 @@ Memo :
 	- !!!
 
 ---
-# <span style="background:#f5f5dc">Dev Note</span>
+# <span style="background:lightgray">Dev Note</span>
 
 ### 기술스택
 
@@ -78,8 +78,5 @@ public static T FromJson<T>(string json);
 - Dictionary, List 등 다양한 자료형 지원
 - private 변수도 직렬화 가능 (JsonProperty 활용)
 - JsonUtility 보다 유연하고 강력한 기능 제공
-
-
-
 
 ---
