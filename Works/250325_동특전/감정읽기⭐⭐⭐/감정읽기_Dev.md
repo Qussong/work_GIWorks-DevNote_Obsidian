@@ -6,6 +6,15 @@
 | Zone 02 | 뇌와감정   | 감정읽기 | 3-1-3 | 카메라를 통해 자신의 표정을 인식하여 <br>감정을 분석하는 체험 | ⭐⭐    |
 ![](감정읽기-세부연출계획.png)
 
+### 감정별 Rect 색상
+- Angry : 빨강
+- disgust : 보라
+- Fear : 초록
+- Happy : 노랑
+- Sad : 진한 블루
+- Surprise : 하늘
+- Neutral : 주황
+
 ---
 # <span style="background:lightgray">Install & Repair</span>
 ### N회차

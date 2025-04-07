@@ -27,27 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/감정읽기_Dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "뉴런포착_Dev"
-            }
-          },
-          {
-            "id": "b176a45e6b10a98f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted image 20250407111114.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250407111114"
+              "title": "감정읽기_Dev"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -169,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
+                "file": "Works/250325_동특전/동특전_Dev.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "뉴런점프_Dev 의 개요"
+              "title": "동특전_Dev 의 개요"
             }
           },
           {
@@ -219,16 +207,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "30cc4c9c90de060b",
+  "active": "ff0b4d3d9ef2d2ed",
   "lastOpenFiles": [
+    "Works/250325_동특전/동특전_Dev.md",
+    "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted image 20250407111114.png",
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Works/250325_동특전/뉴런포착⭐/Resources/Pasted image 20250407111050.png",
     "Works/250325_동특전/뉴런포착⭐/Resources/Pasted image 20250407111019.png",
-    "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources",
     "Works/250325_동특전/뉴런포착⭐/Resources",
-    "Works/250325_동특전/동특전_Dev.md",
     "Works/Layout_Dev.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/뇌-오가노이드_Dev.md",
     "Works/250325_동특전/뉴런포착⭐",
