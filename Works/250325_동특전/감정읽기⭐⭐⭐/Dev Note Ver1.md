@@ -1,5 +1,5 @@
-# 아이디어
-### <span style="background:lightgray">Overview</span>
+# <span style="background:lightgray">아이디어</span>
+### Overview
 
 파이썬을 통해 웹캠에 접근하여 카메라를 통해 얼굴을 인식하고 표정을 분석함
 이렇게 분석된 데이터를 Unity 에 소켓통신으로 전달
@@ -7,8 +7,8 @@
 
 ---
 
-# 학습 내용
-### <span style="background:lightgray">JSON 과 UTF-8</span>
+# <span style="background:lightgray">학습 내용</span>
+### JSON 과 UTF-8
 
 #### UTF-8 의 장점
 - 글로벌 호환성 : 
@@ -47,7 +47,7 @@ JSON은 간결한 데이터 구조를 제공하지만, 네트워크 전송의 �
 5. UTF-8의 디코딩 규칙성과 일관성
 	- 수신 측에서는 UTF-8 인코딩 규칙을 기반으로 데이터를 쉽게 디코딩할 수 있다. 이는 JSON과 UTF-8의 조합이 네트워크 환경에서 안정적이고 표준화된 방식이기 때문이다.
 
-### <span style="background:lightgray">유니코드와 UTF-8</span>
+### 유니코드와 UTF-8
 
 유니코드와 UTF-8은 서로 다른 개념이지만, 밀접한 관련이 있다.
 유니코드는 문자 집합이고, UTF-8은 유니코드 문자를 저장하거나 전송하기 위한 인코딩 방식 중 하나이다.
@@ -70,8 +70,8 @@ JSON은 간결한 데이터 구조를 제공하지만, 네트워크 전송의 �
 
 ---
 
-# 코드 구현
-### <span style="background:lightgray">표정 분석</span>
+# <span style="background:lightgray">코드 구현</span>
+### 표정 분석
 #### source code (python)
 ```python
 import cv2
@@ -198,7 +198,7 @@ cv2.destroyAllWindows()
 
 ```
 
-### <span style="background:lightgray">Socket 통신 추가</span>
+### Socket 통신 추가
 #### source code (python)
 
 - TCP 소켓을 통해 Unity에 전송 (서버 역할)

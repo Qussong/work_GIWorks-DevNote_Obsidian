@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/감정읽기_Dev.md",
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "감정읽기_Dev"
+              "title": "Dev Note Ver2"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 249.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/옵시디언/Markdown.md",
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Markdown 의 개요"
+              "title": "Dev Note Ver2 의 개요"
             }
           },
           {
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 254.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +194,11 @@
   },
   "active": "b176a45e6b10a98f",
   "lastOpenFiles": [
-    "Works/250325_동특전/동특전_Dev.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_flow.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/감정읽기_Dev.md",
+    "Works/250325_동특전/동특전_Dev.md",
     "Works/Work.md",
     "Works/Layout_Dev.md",
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
@@ -202,7 +206,6 @@
     "동특전_진행사항.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources/temp_1743988996774.png",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Drawing_flow.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_flow.md",
     "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
     "conflict-files-obsidian-git.md",
@@ -223,11 +226,9 @@
     "Works/250325_동특전/기획/Resources",
     "Works/250325_동특전/동특전_진행사항.md",
     "Works/250325_동특전/기획",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart 1.md",
     "Study/CS/_Computer Science.md",
     "Study/CS/네트워킹 (Networking).md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
     "Study/옵시디언/_Obsidian.md",
     "Study/CS",
     "Study/Git/_Git.md",

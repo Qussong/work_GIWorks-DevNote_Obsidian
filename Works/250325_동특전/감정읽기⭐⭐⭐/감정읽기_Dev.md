@@ -1,4 +1,4 @@
-# <span style="background:#f5f5dc">Content</span>
+# <span style="background:lightgray">Content</span>
 
 ### 기획 및 내용
 | Zone    | Corner | Item | No    | 연출개요                                 | 예상난이도 |
@@ -7,7 +7,7 @@
 ![](감정읽기-세부연출계획.png)
 
 ---
-# <span style="background:#f5f5dc">Install & Repair</span>
+# <span style="background:lightgray">Install & Repair</span>
 ### N회차
 Date : 
 Memo :
@@ -15,7 +15,7 @@ Memo :
 	- !!!
 
 ---
-# <span style="background:#f5f5dc">Dev Note</span>
+# <span style="background:lightgray">Dev Note</span>
 
 ### 기술스택
 
