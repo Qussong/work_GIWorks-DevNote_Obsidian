@@ -1,4 +1,4 @@
-# <span style="background:#f5f5dc">Content</span>
+# <span style="background:#">Content</span>
 
 ### 기획 및 내용
 
