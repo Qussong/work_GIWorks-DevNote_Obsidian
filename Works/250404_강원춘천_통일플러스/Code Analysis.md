@@ -1,4 +1,4 @@
-### <span style="background:lightgray">PrinterManager.PrintImage()</span>
+### <span style="background:lightgray">PrinterManager.PrintImage() func</span>
 이미지 출력 기능을 비동기로 안정적으로 처리하는 기능
 ```csharp
 public async void PrintImage(string filePath)
@@ -31,7 +31,7 @@ public async void PrintImage(string filePath)
 // PrintPage 핸들러 이벤트가 호출되면 호출된 함수는 내부에서 Graphics.DrawImage() 와 같은 기능으로 이미지를 그려야 한다.
 ```
 
-### <span style="background:lightgray">PrintPage</span>
+### <span style="background:lightgray">PrintPage() func</span>
 실제 이미지를 페이지에 출력하는 핵심 로직이 들어 있는 부분으로 프린트할 이미지를 페이지 크기에 맞춰 스케일링하거나, 중앙 정렬하는 방식이 들어있다.
 ```csharp
 private void PrintPage(object sender, PrintPageEventArgs e)

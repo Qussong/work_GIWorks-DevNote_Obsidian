@@ -1,11 +1,11 @@
-# <span style="background:#f5f5dc">Content</span>
+# <span style="background:lightgray">Content</span>
 
 ### 기획 및 내용
 
 ?
 
 ---
-# <span style="background:#f5f5dc">Install & Repair</span>
+# <span style="background:lightgray">Install & Repair</span>
 ### 1회차
 Date : 25.04.04
 클라이언트 요청사항 : 화면에 카메라 이미지가 잘려서 나온다.
@@ -15,7 +15,7 @@ Memo :
 	- 비 개발자가 보고 이해할 수 있는 문서 작성해서 줘야함
 
 ---
-# <span style="background:#f5f5dc">Dev Note</span>
+# <span style="background:lightgray">Dev Note</span>
 
 ### 기술스택
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/Layout_Dev.md",
+                "file": "Works/250404_강원춘천_통일플러스/Code Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Layout_Dev"
+              "title": "Code Analysis"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 266.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -191,8 +191,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f49da9b531214531",
+  "active": "b176a45e6b10a98f",
   "lastOpenFiles": [
+    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
+    "Works/250404_강원춘천_통일플러스/Code Analysis.md",
+    "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
+    "Works/250325_동특전/_동특전_Dev.md",
+    "Works/_Work.md",
     "Works/Layout_Dev.md",
     "conflict-files-obsidian-git.md",
     "Works/250404_강원춘천_통일플러스/Resources/Pasted Image 20250404171759_026.png",
@@ -202,13 +207,8 @@
     "Works/250404_강원춘천_통일플러스/Resources/Pasted Image 20250404164700_655.png",
     "Works/250404_강원춘천_통일플러스/Resources/Pasted Image 20250404164549_656.png",
     "Works/250404_강원춘천_통일플러스/Resources/Pasted image 20250404144556.png",
-    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
-    "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
     "Works/250404_강원춘천_통일플러스/Resources",
-    "Works/250404_강원춘천_통일플러스/Code Analysis.md",
     "Works/250404_강원춘천_통일플러스",
-    "Works/250325_동특전/_동특전_Dev.md",
-    "Works/_Work.md",
     "Works/250325_동특전/기획/Drawing_기획.md",
     "Works/250325_동특전/기획/기획을 도와주는 개발.md",
     "Works/250325_동특전/기획/Resources/Pasted Image 20250403110031_126.png",
