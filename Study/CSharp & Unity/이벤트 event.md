@@ -1,57 +1,28 @@
 
 ### 이벤트란?
-특정 동작이 발생했을 때 실행되는 **알림 시스템**이라고 할 수 있다.
-버튼이 클릭되었을 때 알림을 주거나, 페이지가 전환되었을 때 어떤 작업을 실행하도록 한다.
-발행자와 구독자라는 역할이 존재하며 각각은 아래와 같은 역할을 수행한다.
-- 발행자 (publisher) : 이벤트를 선언하고, 발생시키는 클래스이다.
-- 구독자 (subscriber) : 이벤트가 발생했을 때 실행될 동작(메서드)을 정의하고, 이벤트를 구독한다.
-
-### C#에서 이벤트란?
+- 이벤트는 특정 동작이 발생했을 때, 미리 등록된 메서드를 호출하도록 설계된다.
 - C# 에서 이벤트를 정의할 때 사용하는 키워드로, 객체 간의 **비동기적인 통신**을 가능하게 한다.
 - 이벤트는 **델리게이트**를 기반으로 동작하며, 주로 **Observer 패턴**을 구현하는 데 사용된다.
+- 발행자와 구독자라는 역할이 존재하며 각각은 아래와 같은 역할을 수행한다.
+	1. 발행자 (publisher) : 이벤트를 선언하고, 발생시키는 클래스이다.
+	2. 구독자 (subscriber) : 이벤트가 발생했을 때 실행될 동작(메서드)을 정의하고, 이벤트를 구독한다.
 
-### 델리게이트와 이벤트의 관계
-이벤트는 델리게이트를 기반으로 동작하고, 델리게이트는 함수를 참조하는 포인터 같은 존재다.
+### 특징
+1. 델리게이트 기반
+	이벤트는 델리게이트를 기반으로 동작한다.
+	델리게이트는 이벤트가 호출될 때 실행할 메서드를 참조한다.
+
+2. Observer 패턴 구현
+	객체들 간의 느슨한 결합을 제공한다.
+	이벤트를 통해 특정 상태 변화에 대한 알림을 보낼 수 있다.
+
+3. 구독/발행 모델
+	여러 메서드를 구독할 수 있다.
+	발행자는 구독자에게 알림을 발행한다.
+
+
+### 선언 및 사용법
+이벤트는 event 키워드를 사용해 선언된다.
 ```csharp
-// 델리게이트 선언
-public delegate void NotifyDelegate(); 
 
-// 델리게이트 사용 예
-public class Example
-{
-    public NotifyDelegate OnNotify; // 델리게이트 인스턴스
-
-    public void Trigger()
-    {
-        OnNotify?.Invoke(); // 연결된 메서드를 실행
-    }
-}
-
-// 델리게이트 구독 및 실행
-Example ex = new Example();
-ex.OnNotify = () => Console.WriteLine("이벤트 발생!");
-ex.Trigger(); // 출력: 이벤트 발생!
-```
-
-
-### 정의 및 구현
-
-```csharp
-public class UIManager
-{
-    // 이벤트 선언
-    public event Action OnMoveHome;
-
-    // 메서드에서 이벤트 호출
-    public void MoveHome()
-    {
-        Console.WriteLine("Moving to Home...");
-        OnMoveHome?.Invoke(); // 이벤트 호출 (구독자에게 알림)
-    }
-}
-
-// 이벤트 구독 및 사용
-UIManager uiManager = new UIManager();
-uiManager.OnMoveHome += () => Console.WriteLine("Home 이동 이벤트 발생!");
-uiManager.MoveHome();
 ```
