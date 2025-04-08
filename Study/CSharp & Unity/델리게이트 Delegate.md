@@ -42,7 +42,7 @@ public delegate int Calculate(int x, int y);
 ```
 
 2. 델리게이트 인스턴스 생성
-델리게이트는 선언된 메서드에 연결해야 한다.
+❓델리게이트는 선언된 메서드에 연결해야 한다. 
 ```csharp
 Calculate calc = new Calculate(Add);
 ```
@@ -61,7 +61,17 @@ class Program
     static void Main(string[] args)
     {
         Calculate calc = new Calculate((a, b) => Console.WriteLine(a+b));
-        calc(1,2);  // 3
+        calc(1,2);  // 
     }
 }
 ```
+
+### 특징
+1. **타입 안전성**
+	델리게이트는 특정 반환형과 매개변수를 가진 메서드만 참조할 수 있어, 타입 안정성을 제공한다.
+2. **멀티캐스트 지원**
+	델리게이트는 여러 메서드를 참조할 수 있다.
+```
+```
+3. **함수형 프로그래밍 스타일**
+	델리게이트는 람다와 함께 사용할 때 더욱 간결하고 유연하다.
