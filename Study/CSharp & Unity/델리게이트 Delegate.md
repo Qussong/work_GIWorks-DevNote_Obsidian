@@ -71,7 +71,26 @@ class Program
 	델리게이트는 특정 반환형과 매개변수를 가진 메서드만 참조할 수 있어, 타입 안정성을 제공한다.
 2. **멀티캐스트 지원**
 	델리게이트는 여러 메서드를 참조할 수 있다.
-```
+	- `-=` : 델리게이트에서 메서드 제거
+	- `+=` : 델리게이트에서 메서드 추가
+```csharp
+public delegate void Notify();
+public class Example
+{
+    public void PrintHello() { Console.Write("Hello, "); }
+    public void PrintWorld() { Console.Write("World"); }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Example example = new Example();
+        Notify noti = new Notify(example.PrintHello);
+        noti += example.PrintWorld;
+		noti();  // Hello, World
+    }
+}
 ```
 3. **함수형 프로그래밍 스타일**
 	델리게이트는 람다와 함께 사용할 때 더욱 간결하고 유연하다.
