@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -195,8 +196,8 @@
   "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
     "Study/CSharp & Unity/이벤트 event.md",
-    "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
     "Study/CSharp & Unity/액션 Action.md",
+    "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
     "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Study/CSharp & Unity",
     "Study/CS/네트워킹 (Networking).md",
