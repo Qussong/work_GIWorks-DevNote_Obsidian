@@ -121,14 +121,14 @@ class Program
 Func<int, int, int> add = (x,y) => x + y;
 int result = add(10,20);  // 30
 ```
-1. Action
+2. Action
 	- **반환값이 없는** 메서드를 참조한다.
 	- 최대 16개의 매개변수를 받을 수 있다.
 ```csharp
 Action<string> print  = message => Console.WriteLine(message);
 print("Hello");  // Hello
 ```
-1. Predicate
+3. Predicate
 	- **반환값이 bool**인 메서드를 참조한다.
 ```csharp
 Predicate<int> evenCheck = x => x % 2 == 0;
