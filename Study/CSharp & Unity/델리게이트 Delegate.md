@@ -136,6 +136,8 @@ bool isEven = evenCheck(4);  // True
 ```
 
 ### 콜백함수 (Callback)
+특정 작업이 끝난 후 실행할 작업 지시를 전달하기 위한 방법이다.
+
 ```csharp
 
 ```
