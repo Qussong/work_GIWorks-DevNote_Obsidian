@@ -139,6 +139,25 @@ bool isEven = evenCheck(4);  // True
 - 특정 작업이 끝난 후 실행할 작업 지시(호출될 함수)를 전달하기 위한 방법이다.
 - C#에서는 델리게이트를 사용하여 콜백 함수를 구현한다. 델리게이트는 특정 메서드의 참조를 저장하는 타입이다.
 ```csharp
+public delegate void Callback(string result);
+public class Example
+{
+    public void Execute(Callback callback)
+    {
+        // 작업 수행
+        string result = "Task Completed";
+        // 작업 완료 후 콜백 호출
+        callback(result);
+    }
+}
 
+class Program
+{
+    static void Main(string[] args)
+    {
+        Example example = new Example();
+        example.Execute(result => Console.WriteLine(result)); // 출력: Task Completed
+    }
+}
 ```
 
