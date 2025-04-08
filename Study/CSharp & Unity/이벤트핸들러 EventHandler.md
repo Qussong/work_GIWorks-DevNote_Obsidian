@@ -63,20 +63,52 @@ class Program
 2. 구독자는 데이터를 받아 처리한다.
 ```csharp
 
+using System.Reflection;
+
+public class DataProcessor
+{
+    public event EventHandler<DataEventArgs> ProcessCompleted;
+    public void Process(string data)
+    {
+        Console.WriteLine("데이터를 처리 중...");
+        string result = $"[{data.ToUpper()}] 처리완료";
+        ProcessCompleted?.Invoke(this, new DataEventArgs {ProcessedData = result });
+    }
+}
+
+public class DataEventArgs : EventArgs
+{
+    public string ProcessedData {get; set;} // 추가 데이터
+}
+
+public class Subscriber
+{
+    // 이벤트 핸들러 메서드
+    public void OnProcessCompleted(object sender, DataEventArgs e)
+    {
+        Console.WriteLine($"구독자 : 받은 데이터 - {e.ProcessedData}");
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        DataProcessor pro = new DataProcessor();
+        Subscriber sub = new Subscriber();
+
+        pro.ProcessCompleted += sub.OnProcessCompleted;
+        pro.Process("example data");
+    }
+}
 ```
 
 ### EventHandler 와 EventHandler<T\>
 C#에서는 기본적으로 제공되는 이벤트 처리용 델리게이트 두 가지가 있다.
-
 1. EventHandler
 	**데이터가 필요 없는** 일반적인 이벤트 처리
-```csharp
-
-```
 
 2. EventHandler<T\>
 	**추가적인 데이터를 포함**하는 이벤트 처리
-```csharp
 
-```
 
