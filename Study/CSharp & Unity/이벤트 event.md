@@ -25,4 +25,37 @@
 이벤트는 event 키워드를 사용해 선언된다.
 ```csharp
 
+public class Publisher
+{
+    public event Action OnProcessCompleted;
+
+    public void Process()
+    {
+        Console.WriteLine("작업 실행 중...");
+
+        OnProcessCompleted?.Invoke();   // 구독자에게 알림
+    }
+}
+
+public class Subscriber
+{
+    public void HandleEvent()
+    {
+        Console.WriteLine("구독자 : 작업 완료 알림 받음!");
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Publisher pub = new Publisher();
+        Subscriber sub = new Subscriber();
+        pub.OnProcessCompleted += sub.HandleEvent;
+
+        pub.Process();
+        // 작업 실행 중...
+        // 구독자 : 작업 완료 알림 받음!
+    }
+}
 ```
