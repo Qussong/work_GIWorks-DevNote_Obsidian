@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
+                "file": "Study/CSharp/인터페이스 (Interface).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "뉴런점프_Dev"
+              "title": "인터페이스 (Interface)"
             }
           }
         ]
@@ -194,8 +194,12 @@
   },
   "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
-    "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
+    "Study/CSharp",
+    "Study/CS/네트워킹 (Networking).md",
+    "Study/CSharp/인터페이스 (Interface).md",
+    "Study/CS/_Computer Science.md",
     "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
+    "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
     "Works/250404_강원춘천_통일플러스/Resources/Screenshot_20250408_113413_654.png",
     "Works/250404_강원춘천_통일플러스/Resources/Screenshot_20250408_113409_547.png",
     "Works/250404_강원춘천_통일플러스/Resources/Screenshot_20250408_113413_741.png",
@@ -235,9 +239,6 @@
     "Works/250325_동특전/동특전_진행사항.md",
     "Works/250325_동특전/기획",
     "Works/250325_동특전/감정읽기⭐⭐⭐/NetworkFlowChart 1.md",
-    "Study/CS/_Computer Science.md",
-    "Study/CS/네트워킹 (Networking).md",
-    "Study/옵시디언/_Obsidian.md",
     "Study/CS",
     "무제.canvas"
   ]
