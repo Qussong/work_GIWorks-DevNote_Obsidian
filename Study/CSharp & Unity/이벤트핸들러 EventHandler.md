@@ -15,14 +15,54 @@
 4. 구독자
 	- 이벤트에 반응하는 메서드를 가진 객체
 
-### 기본 구조
-C#에서 이벤트 핸들러를 작성하려면 다음 규칙을 따라야 한다.
-1. 이벤트 핸들러는 **델리게이트 타입**으로 정의된다.
-2. 일반적으로 `EventHandler` 또는 `EventHandler<T>`를 사용해 표준화된 이벤트 처리 방식을 구현한다.
+### 쉬운 예제 : 간단한 버튼 클릭 이벤트
+코드 시나리오
+1. 버튼을 누르면 이벤트가 발생한다.
+2. 구독자가 버튼을 누른 후 어떤 메세지를 출력한다.
 ```csharp
-public delegate void EventHandler(object sender, EventArgs e);
-// object sender : 이벤트를 발생시킨 객체 (발행자)
-// EventArgs e : 추가적인 이벤트 데이터를 포함하는 객체 (없을 경우 기본값으로 EventArgs.Empty 사용)
+public class Button
+{
+    public event EventHandler ButtonClicked;
+
+    public void Click()
+    {
+        Console.WriteLine("버튼이 클릭되었습니다.");
+        // 이벤트 발생
+        ButtonClicked?.Invoke(this, EventArgs.Empty);   // 구독자에게 알림
+    }
+}
+
+public class Subscriber
+{
+    public void OnButtonClicked(object sender, EventArgs e)
+    {
+        Console.WriteLine("구독자 : 버튼 클릭 이벤트 처리 중 ...");
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Button btn = new Button();
+        Subscriber sub = new Subscriber();
+        // 구독: 버튼 클릭 이벤트에 구독자 연결
+        btn.ButtonClicked += sub.OnButtonClicked;
+        // 버튼 클릭을 시뮬레이션
+        btn.Click();
+        // 출력물
+        // 버튼이 클릭되었습니다.
+        // 구독자 : 버튼 클릭 이벤트 처리 중 ...
+    }
+}
+```
+
+### 조금 더 복잡한 예제 : 데이터 전달 이벤트
+코드 시나리오
+1. 작업이 완료되면, 완료된 데이터를 이벤트를 통해 전달한다.
+2. 구독자는 데이터를 받아 처리한다.
+```csharp
+
 ```
 
 ### EventHandler 와 EventHandler<T\>
