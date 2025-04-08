@@ -95,6 +95,15 @@ class Program
 3. **함수형 프로그래밍 스타일**
 	델리게이트는 **람다**와 함께 사용할 때 더욱 간결하고 유연하다.
 ```csharp
+public delegate int Calculator(int x, int y);
 
-
+class Program
+{
+    static void Main(string[] args)
+    {
+        Calculator calc = (x, y) => x + y;
+        Calculator calc2 = new Calculator((x, y) => x + y);
+        int result = calc(5, 10);
+    }
+}
 ```
