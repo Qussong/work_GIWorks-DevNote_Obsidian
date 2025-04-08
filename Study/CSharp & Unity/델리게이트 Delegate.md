@@ -103,7 +103,13 @@ class Program
     {
         Calculator calc = (x, y) => x + y;
         Calculator calc2 = new Calculator((x, y) => x + y);
-        int result = calc(5, 10);
+        Console.WriteLine($"calc(1,2) = {calc(1,2)}");
+        Console.WriteLine($"calc2(1,2) = {calc2(1,2)}");
+        // 출력 : 
+        // calc(1,2) = 3
+        // calc2(1,2) = 3
     }
 }
 ```
+> `Calculator calc = (x, y) => x + y;` 과 `Calculator calc2 = new Calculator((x, y) => x + y);` 이 두 방식은 동일한 역할을 하며, 최종적으로 동일한 델리게이트 인스턴스를 생성한다. 그러나 현대적인 C# 코드에서는 첫번째 방식인 람다 식을 사용한 간결한 스타일이 더 일반적으로 사용된다.
+> 명시적 객체 생성이 필요하거나, 코드 스타일에서 명확함을 중시하는 경우 두번재 방식을 선택할 수 있다.
