@@ -119,9 +119,17 @@ class Program
 1. Func
 	- 반환값이 있는 메서드를 참조한다.
 	- 최대 16개의 매개변수를 받을 수 있다.
-2. Action
+```csharp
+
+```
+1. Action
 	- 반환값이 없는 메서드를 참조한다.
 	- 최대 16개의 매개변수를 받을 수 있다.
-3. Predicate
+```csharp
+
+```
+1. Predicate
 	- 반환값이 bool인 메서드를 참조한다.
-	
+```csharp
+
+```
