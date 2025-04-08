@@ -105,4 +105,45 @@ class Program
 
 ### ❗event + Func
 Func 의 특성상 반환값이 필요하기에 이벤트와 결합하는 경우 구독자들이 반환값을 제공하는 형태로 동작한다.
+Func의 마지막 타입은 항상 반환값을 나타낸다. (`Func<T1,T2,...,TResult>`)
+```csharp
+public class Publisher
+{
+    public event Func<int, string> OnRequestData;
 
+    public void RequestData(int id)
+    {
+        if(null != OnRequestData)
+        {
+            foreach(Func<int,string> handler in OnRequestData.GetInvocationList())
+            {
+                string result = handler.Invoke(id); // 구독자 호출
+                Console.WriteLine($"구독자가 반환한 데이터 => {result}");
+            }
+        }
+    }
+}
+
+public class Subscriber
+{
+    public string ProvideData(int value)
+    {
+        return $"데이터 처리 완료 : {value + 10}";
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Publisher pub = new Publisher();
+        Subscriber sub = new Subscriber();
+        // 이벤트 구독
+        pub.OnRequestData += sub.ProvideData;
+        // 요청 실행행
+        pub.RequestData(40);
+        // 출력값
+        // 구독자가 반환한 데이터 => 데이터 처리 완료 : 50
+    }
+}
+```
