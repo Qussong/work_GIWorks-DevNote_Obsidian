@@ -61,7 +61,7 @@ class Program
     static void Main(string[] args)
     {
         Calculate calc = new Calculate((a, b) => Console.WriteLine(a+b));
-        calc(1,2);
+        calc(1,2);  // 3
     }
 }
 ```
