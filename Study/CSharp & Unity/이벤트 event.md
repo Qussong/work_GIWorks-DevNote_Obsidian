@@ -24,7 +24,6 @@
 ### 선언 및 사용법
 이벤트는 event 키워드를 사용해 선언된다.
 ```csharp
-
 public class Publisher
 {
     public event Action OnProcessCompleted;
