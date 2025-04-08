@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/감정읽기_Dev.md",
+                "file": "Works/250325_동특전/뇌파이야기⭐⭐⭐/뇌파이야기_Dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "감정읽기_Dev"
+              "title": "뇌파이야기_Dev"
             }
           }
         ],
@@ -209,6 +209,9 @@
   },
   "active": "ff0b4d3d9ef2d2ed",
   "lastOpenFiles": [
+    "Works/250325_동특전/감정읽기⭐⭐⭐/감정읽기_Dev.md",
+    "Works/250325_동특전/뇌파이야기⭐⭐⭐/뇌파이야기_Dev.md",
+    "Works/250325_동특전/뇌파이야기⭐⭐⭐",
     "Works/250325_동특전/동특전_Dev.md",
     "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted image 20250407111114.png",
@@ -224,7 +227,6 @@
     "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_flow.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/감정읽기_Dev.md",
     "Works/Work.md",
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
     "동특전_진행사항.md",
@@ -253,7 +255,6 @@
     "Study/옵시디언/_Obsidian.md",
     "Study/CS",
     "Study/Git/_Git.md",
-    "Excalidraw",
     "무제.canvas"
   ]
 }
