@@ -1,4 +1,4 @@
-
+>**이벤트는 델리게이트 기반으로 만들어졌지만, 특정 작업 후 구독자에게 알림을 주는 데 특화되어 있다**.
 ### 이벤트란?
 - 이벤트는 특정 동작이 발생했을 때, 미리 등록된 메서드를 호출하도록 설계된다.
 - C# 에서 이벤트를 정의할 때 사용하는 키워드로, 객체 간의 **비동기적인 통신**을 가능하게 한다.
@@ -83,5 +83,28 @@ class Program
 ### 이벤트와 Action 의 결합
 이벤트는 Action 과 쉽게 결합할 수 있다.
 ```csharp
+public class Publisher
+{
+    public event Action<string> OnMessage;
+    public void SendMsg(string msg)
+    {
+        OnMessage?.Invoke(msg);
+    }
+}
 
+class Program
+{
+    static void Main(string[] args)
+    {
+        Publisher pub = new Publisher();
+        pub.OnMessage += (msg) => Console.WriteLine($"알림 : {msg}");
+        pub.SendMsg("Hello, World");  // 알림 : Hello, World
+    }
+}
 ```
+
+### ❗event + Func
+Func 의 특성상 반환값이 필요하기에 이벤트와 결합하는 경우 구독자들이 반환값을 제공하는 형태로 동작한다.
+
+### ❗evnet + Predicate
+Func 의 특성상 반환값이 필요하기에 이벤트와 결합하는 경우 구독자들이 반환값을 제공하는 형태로 동작한다.
