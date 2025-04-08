@@ -52,3 +52,16 @@ Calculate calc = new Calculate(Add);
 ```csharp
 int result = calc(10, 20);  // Add 메서드가 실행된다.
 ```
+
+```csharp
+public delegate void Calculate(int x, int y);
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Calculate calc = new Calculate((a, b) => Console.WriteLine(a+b));
+        calc(1,2);
+    }
+}
+```
