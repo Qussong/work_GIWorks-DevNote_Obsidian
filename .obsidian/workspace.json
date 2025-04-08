@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "뉴런점프_Dev"
             }
-          },
-          {
-            "id": "ff0b4d3d9ef2d2ed",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing_PhotoKioskAnalysis"
-            }
           }
         ]
       }
@@ -169,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           },
           {
@@ -179,8 +167,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           }
         ],
@@ -207,6 +195,7 @@
   "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
+    "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250404_강원춘천_통일플러스/Resources/Screenshot_20250408_113413_654.png",
     "Works/250404_강원춘천_통일플러스/Resources/Screenshot_20250408_113409_547.png",
     "Works/250404_강원춘천_통일플러스/Resources/Screenshot_20250408_113413_741.png",
@@ -217,7 +206,6 @@
     "Works/250325_동특전/감정읽기⭐⭐⭐/감정읽기_Dev.md",
     "Works/250325_동특전/뇌파이야기⭐⭐⭐",
     "Works/250325_동특전/동특전_Dev.md",
-    "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted image 20250407111114.png",
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Works/250325_동특전/뉴런포착⭐/Resources/Pasted image 20250407111050.png",
