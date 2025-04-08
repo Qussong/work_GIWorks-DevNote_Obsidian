@@ -6,6 +6,27 @@
 특정 메서드의 **시그니처**(반환타입과 매개변수)와 일치하는 메서드만 참조할 수 있다.
 `delegate` 키워드를 사용해 정의하며, 이 정의에 맞는 메서드만 연결할 수 있다.
 
-```
+```csharp
+// 델리게이트 선언
+public delegate void MyDelegate(string message);
 
+// 델리게이트 사용 예
+public class Example
+{
+    public void PrintMessage(string message)
+    {
+        Console.WriteLine(message);
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // 델리게이트 사용
+        Example example = new Example();
+        MyDelegate del = new MyDelegate(example.PrintMessage);
+        del("Hello, Delegate!");
+    }
+}
 ```
