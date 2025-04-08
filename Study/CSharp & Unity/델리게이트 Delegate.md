@@ -127,6 +127,7 @@ class Program
 1. Func
 	- **반환값이 있는** 메서드를 참조한다.
 	- 최대 16개의 매개변수를 받을 수 있다.
+	- 꺽쇠의 마지막은 **반환값**을 의미한다. (`Func<T1, T2, ..., TResult>`)
 ```csharp
 Func<int, int, int> add = (x,y) => x + y;
 int result = add(10,20);  // 30
