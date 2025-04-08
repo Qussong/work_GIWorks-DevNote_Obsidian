@@ -17,7 +17,14 @@ public delegate void EventHandler(object sender, EventArgs e);
 C#에서는 기본적으로 제공되는 이벤트 처리용 델리게이트 두 가지가 있다.
 
 1. EventHandler
-	데이터가 필요 없는 일반적인 이벤트 처리
+	**데이터가 필요 없는** 일반적인 이벤트 처리
+```csharp
+
+```
 
 2. EventHandler<T\>
-	추가적인 데이터를 포함하는 이벤트 처리
+	**추가적인 데이터를 포함**하는 이벤트 처리
+```csharp
+
+```
+
