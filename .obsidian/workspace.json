@@ -25,12 +25,14 @@
             "id": "1c69673cbc70e3c6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md"
+                "file": "Study/CSharp & Unity/스크린 Screen.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing_Manager"
+              "icon": "lucide-file",
+              "title": "스크린 Screen"
             }
           }
         ],
@@ -207,15 +209,16 @@
   },
   "active": "1c69673cbc70e3c6",
   "lastOpenFiles": [
+    "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
+    "Study/CSharp & Unity/스크린 Screen.md",
+    "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Study/CSharp & Unity/Enum.md",
     "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
-    "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Works/250325_동특전/뉴런포착⭐/무제.md",
     "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
-    "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
     "Study/CSharp & Unity/액션 Action.md",
     "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Study/CSharp & Unity/표현식 본문 생성자.md",
@@ -244,7 +247,6 @@
     "Works/250325_동특전/뉴런점프⭐⭐",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing_flow.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources/temp_1743988996774.png",
     "Works/250404_강원춘천_통일플러스/Resources/Pasted Image 20250404171759_026.png",
     "Works/250404_강원춘천_통일플러스/Resources/Pasted Image 20250404171712_063.png",
