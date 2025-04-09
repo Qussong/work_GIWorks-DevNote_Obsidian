@@ -41,3 +41,36 @@ public class Program
     }
 }
 ```
+
+### Enum ↔ string
+- `Enum.Parse` : 문자열을 Enum 값으로 변환할 때 사용한다. Enum 값으로 변환이 가능한 경우 Enum 값을 반환하고, 변환이 불가능한 경우 예외를 발생시킨다.
+  문자열의 값은 Enum의 이름과 정확히 일치해야 하며, 대소문자를 구분해야한다. (대소문자를 구분하지 않으려면 `Enum.Parse` 호출 시 `true` 를 추가한다.)
+- 
+```csharp
+class Program
+{
+    public enum ETest
+    {
+        HELLO,
+        WORLD,
+        NONE
+    }
+
+    static void Main(string[] args)
+    {
+        // Enum -> String
+        string enumToString = ETest.HELLO.ToString();
+        if (enumToString is string str)
+        {
+            Console.WriteLine(str); // HELLO
+        }
+
+        // String -> Enum
+        ETest stringToEnum = (ETest)Enum.Parse(typeof(ETest), enumToString);
+        if (stringToEnum is ETest e)
+        {
+            Console.WriteLine(e);   // HELLO
+        }
+    }
+}
+```

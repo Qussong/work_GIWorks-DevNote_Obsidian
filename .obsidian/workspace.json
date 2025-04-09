@@ -35,8 +35,7 @@
               "title": "is 키워드"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,10 +206,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1c69673cbc70e3c6",
+  "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
-    "Study/CSharp & Unity/Enum.md",
     "Study/CSharp & Unity/is 키워드.md",
+    "Study/CSharp & Unity/Enum.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",
     "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
     "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
