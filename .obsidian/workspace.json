@@ -33,7 +33,8 @@
               "title": "Drawing_Manager"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,10 +205,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "30cc4c9c90de060b",
+  "active": "1c69673cbc70e3c6",
   "lastOpenFiles": [
-    "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Study/CSharp & Unity/Enum.md",
+    "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
