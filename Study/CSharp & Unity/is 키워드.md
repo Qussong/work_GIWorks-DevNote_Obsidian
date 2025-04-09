@@ -20,7 +20,7 @@
 	value 는 string 타입이기에 true가 반환되고 조건문이 실행된다.
 
 
-
+### 패턴 매칭 (Pattern Matching)
 
 ```csharp
 if (enumId is EUIPage euiPage)
