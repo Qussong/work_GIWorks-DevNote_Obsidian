@@ -12,8 +12,6 @@
 
 ### 예시 코드
 ```csharp
-using System.Runtime.CompilerServices;
-
 public interface IAnimal
 {
     void Speak();
@@ -36,4 +34,4 @@ public class Dog : Animal
 }
 ```
 
-
+- `IAnimal` 인터페이스를 상속하는 `Animal` 추상 클래스는 Speak() 함수를 무조건 구현할 필요는 없지만, 구현하지 않을 경우 반드시 추상 메서드로 선언해야한다.
