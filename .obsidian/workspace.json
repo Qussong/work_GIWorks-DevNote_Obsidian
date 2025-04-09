@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/CSharp & Unity/표현식 본문 생성자.md",
-                "mode": "preview",
+                "file": "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "표현식 본문 생성자"
+              "title": "이벤트핸들러 EventHandler"
             }
           }
         ]
@@ -194,13 +194,13 @@
   },
   "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
-    "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
+    "Study/CSharp & Unity/액션 Action.md",
+    "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Study/CSharp & Unity/표현식 본문 생성자.md",
+    "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
     "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
     "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
-    "Study/CSharp & Unity/델리게이트 Delegate.md",
-    "Study/CSharp & Unity/액션 Action.md",
     "Study/CSharp & Unity/이벤트 event.md",
     "Study/CSharp & Unity",
     "Study/CS/네트워킹 (Networking).md",
