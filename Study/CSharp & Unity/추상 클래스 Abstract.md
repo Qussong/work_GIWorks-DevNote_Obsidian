@@ -10,3 +10,30 @@
 2. 공통 기반 제공
 	상속 구조에서 기본적인 필드와 메서드 구현을 정의하여 코드 중복을 줄인다.
 
+### 예시 코드
+```csharp
+using System.Runtime.CompilerServices;
+
+public interface IAnimal
+{
+    void Speak();
+}
+
+public abstract class Animal : IAnimal
+{
+    public string Name {get; set;}
+    public void Sleep() { Console.WriteLine($"{Name} is sleeping.");}
+
+    public abstract void Speak();
+}
+
+public class Dog : Animal
+{
+    public override void Speak()
+    {
+        Console.WriteLine("Woof!");
+    }
+}
+```
+
+
