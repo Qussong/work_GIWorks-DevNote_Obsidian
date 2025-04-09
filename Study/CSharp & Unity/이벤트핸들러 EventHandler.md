@@ -67,11 +67,14 @@ using System.Reflection;
 
 public class DataProcessor
 {
+    // 1. 이벤트 선언 (EventHandler<T> 사용용)
     public event EventHandler<DataEventArgs> ProcessCompleted;
+    // 데이터를 처리하는 메서드드
     public void Process(string data)
     {
         Console.WriteLine("데이터를 처리 중...");
         string result = $"[{data.ToUpper()}] 처리완료";
+        // 2. 이벤트 발생 (데이터와 함께 전달)
         ProcessCompleted?.Invoke(this, new DataEventArgs {ProcessedData = result });
     }
 }
@@ -94,11 +97,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        DataProcessor pro = new DataProcessor();
-        Subscriber sub = new Subscriber();
+        DataProcessor pro = new DataProcessor();    // 데이터 처리 객체
+        Subscriber sub = new Subscriber();  // 구독자 객체
 
+        // 구독
         pro.ProcessCompleted += sub.OnProcessCompleted;
+        // 데이터 처리 실행
         pro.Process("example data");
+        // 출력물
+        // 데이터를 처리 중...
+        // 구독자 : 받은 데이터 - [EXAMPLE DATA] 처리완료
     }
 }
 ```
