@@ -1,2 +1,19 @@
 
+현재 애플리케이션이 실행 중인 화면에 대한 정보를 제공한다.
+주로 화면의 크기, 해상도, 전체 화면 여부 등을 다룰 때 사용한다.
 Screen 클래스의 값은 애플리케이션이 실행 중인 플랫폼에 따라 달라질 수 있다.
+
+### 주요 기능 및 속성
+1. 화면 크기와 해상도
+	Screen.width 와 Screen.height는 현재 화면의 너비와 높이를 픽셀 단위로 반환하다.
+2. 화면 비율
+	`Screen.width / Screen.height`
+3. 전체 화면 설정
+	`Screen.fullScreen` : 애플리케이션이 전체 화면인지 확인하거나 설정한다.
+	`Screen.fullScreenMode` : 전체 화면 모드를 설정하거나 확인
+4. 해상도 변경
+	`Screen.SetResolution(int widht, int height, bool fullscreen)`
+5. 디스플레이 DPI
+	`Screen.dpi` : 현재 디스플레이의 DPI(Dots Per Inch) 값을 반환한다.
+	
+
