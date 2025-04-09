@@ -3,25 +3,25 @@
 타입 검사 수행 후, 결과는 true 또는 false 로 반환한다.
 
 ### is 키워드 기본 사용법
-1. 타입 검사만 수행
-	```csharp
-	object value = "Hello, World!";
-	
-	if (value is string)
-	{
-	    Console.WriteLine("value는 문자열 타입입니다.");
-	}
-	else
-	{
-	    Console.WriteLine("value는 문자열 타입이 아닙니다.");
-	}
-	```
-	is 키워드를 사용해 객체가 특정 타입인지 확인한다.
-	value 는 string 타입이기에 true가 반환되고 조건문이 실행된다.
+타입 검사만 수행
+`is` 키워드를 사용해 객체가 특정 타입인지 확인한다.(true/false 반환)
+```csharp
+object value = "Hello, World!";
 
+if (value is string)
+{
+	Console.WriteLine("value는 문자열 타입입니다.");
+}
+else
+{
+	Console.WriteLine("value는 문자열 타입이 아닙니다.");
+}
+```
+value 는 string 타입이기에 true가 반환되고 조건문이 실행된다.
 
 ### 패턴 매칭 (Pattern Matching)
-
+패턴 매칭을 통한 타입 비교 및 변수 바인딩
+타입을 비교한 다음, 조건이 true일 경우 해당 값을 새로운 변수에 바인딩한다.
 ```csharp
 if (enumId is EUIPage euiPage)
 {
