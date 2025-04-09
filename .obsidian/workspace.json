@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
+                "file": "Study/CSharp & Unity/추상 클래스 Abstract.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "뉴런포착_Dev"
+              "title": "추상 클래스 Abstract"
             }
           },
           {
@@ -33,8 +33,7 @@
               "title": "Drawing_Manager"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 245.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -205,8 +204,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8143b15a9106c5cf",
+  "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
+    "Study/CSharp & Unity/인터페이스 (Interface).md",
+    "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Works/250325_동특전/뉴런포착⭐/무제.md",
@@ -216,7 +217,6 @@
     "Study/CSharp & Unity/액션 Action.md",
     "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Study/CSharp & Unity/표현식 본문 생성자.md",
-    "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
     "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
     "Study/CSharp & Unity/이벤트 event.md",
@@ -244,7 +244,6 @@
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
     "Works/Work.md",
-    "동특전_진행사항.md",
     "Works/250325_동특전/뇌오가노이드⭐⭐/Resources/temp_1743988996774.png",
     "Works/250404_강원춘천_통일플러스/Resources/Pasted Image 20250404171759_026.png",
     "Works/250404_강원춘천_통일플러스/Resources/Pasted Image 20250404171712_063.png",
