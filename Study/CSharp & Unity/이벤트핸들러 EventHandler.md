@@ -21,7 +21,26 @@ EventHandler 의 시그니처는 아래와 같다.
 void Handler(object sender, EventArgs e)
 ```
 람다식을 통해 동일한 형태의 메서드를 간다히 정의하고 이벤트에 등록할 수 있다.
+```csharp
+public class Trigger
+{
+    public event EventHandler testHandler;
+    public void Call()
+    {
+        testHandler?.Invoke(this, EventArgs.Empty);
+    }
+}
 
+class Program
+{
+    static void Main(string[] args)
+    {
+        Trigger trigger = new Trigger();
+        trigger.testHandler += (sender, e) => Console.Write("Trigger!");
+        trigger.Call(); // Trigger!
+    }
+}
+```
 
 ### 쉬운 예제 : 간단한 버튼 클릭 이벤트
 코드 시나리오
