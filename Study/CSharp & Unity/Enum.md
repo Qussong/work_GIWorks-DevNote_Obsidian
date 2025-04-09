@@ -8,4 +8,36 @@
 `C# 7.3` 이상에서는 **`where T : Enum`** 제약 조건을 사용하여 특정 메서드가 enum 타입만 허용하도록 제한할 수 있다.
 ```csharp
 
+public class EnumHandler
+{
+    public static void ProcessEnum<T>(T enumValue) where T : Enum
+    {
+        Console.WriteLine($"Enum Type : {typeof(T)}");
+        Console.WriteLine($"Enum Value : {enumValue}");
+    }
+}
+
+enum AnimalType
+{
+    Dog, Cat, Bird
+}
+
+enum ColorType
+{
+    Red, Green, Blue
+}
+
+public class Program
+{
+    static void Main(string[] args)
+    {
+        EnumHandler.ProcessEnum(AnimalType.Dog);
+        EnumHandler.ProcessEnum(ColorType.Red);
+        // [ 출력 결과 ]
+        // Enum Type : AnimalType
+		// Enum Value : Dog
+		// Enum Type : ColorType
+		// Enum Value : Red
+    }
+}
 ```
