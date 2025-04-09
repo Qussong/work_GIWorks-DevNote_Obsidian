@@ -45,14 +45,13 @@ public class Program
 ### Enum ↔ string
 - `Enum.Parse` : 문자열을 Enum 값으로 변환할 때 사용한다. Enum 값으로 변환이 가능한 경우 Enum 값을 반환하고, 변환이 불가능한 경우 예외를 발생시킨다.
   문자열의 값은 Enum의 이름과 정확히 일치해야 하며, 대소문자를 구분해야한다. (대소문자를 구분하지 않으려면 `Enum.Parse` 호출 시 `true` 를 추가한다.)
-```csharp
-
-```
-
+	```csharp
+	(EnumType)Enum.Parse(typeof(EnumType), stringValue);
+	```
 - `Enum.ToString` : C#에서 enum 타입의 값을 문자열로 변환하는 데 사용되는 메서드이다. `ToString()`을 호출하면 해당 enum 값의 이름이 반환된다.
-```csharp
-
-```
+	```csharp
+	enumVariable.ToString();
+	```
 
 ```csharp
 class Program
