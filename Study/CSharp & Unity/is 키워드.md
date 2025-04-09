@@ -21,7 +21,7 @@ value 는 string 타입이기에 true가 반환되고 조건문이 실행된다.
 
 ### 패턴 매칭 (Pattern Matching)
 패턴 매칭을 통한 타입 비교 및 변수 바인딩
-타입을 비교한 다음, 조건이 true일 경우 해당 값을 새로운 변수에 바인딩한다.
+타입을 비교한 다음, 조건이 true 
 ```csharp
 if (enumId is EUIPage euiPage)
 {
