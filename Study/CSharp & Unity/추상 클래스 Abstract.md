@@ -35,3 +35,4 @@ public class Dog : Animal
 ```
 
 - `IAnimal` 인터페이스를 상속하는 `Animal` 추상 클래스는 Speak() 함수를 무조건 구현할 필요는 없지만, 구현하지 않을 경우 반드시 추상 메서드로 선언해야한다.
+- **`override`** : 추상 클래스의 abstract 함수 구현시 해당 키워드를 반드시 붙여줘야한다. Interface 의 경우 함수 구현시 override 키워드를 붙이지 않아도 된다. (interface 의 경우 오히려 재정의할 함수가 없다고 오류가 발생한다.)
