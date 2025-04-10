@@ -11,12 +11,14 @@
             "id": "30cc4c9c90de060b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md"
+                "file": "Study/CSharp & Unity/Enum.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing_Manager"
+              "icon": "lucide-file",
+              "title": "Enum"
             }
           },
           {
@@ -90,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -207,11 +208,11 @@
   },
   "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
+    "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
     "Study/CSharp & Unity/is 키워드.md",
-    "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Study/CSharp & Unity/Enum.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",
