@@ -25,15 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/CSharp & Unity/is 키워드.md",
+                "file": "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "is 키워드"
+              "title": "이벤트핸들러 EventHandler"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 200
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -204,10 +205,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1a19079c83d1685a",
+  "active": "1c69673cbc70e3c6",
   "lastOpenFiles": [
-    "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Study/CSharp & Unity/is 키워드.md",
+    "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Study/CSharp & Unity/Enum.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",

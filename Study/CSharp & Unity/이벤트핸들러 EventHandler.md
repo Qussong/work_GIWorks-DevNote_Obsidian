@@ -138,6 +138,45 @@ class Program
 }
 ```
 
+### 커스텀 예제 (EventHandler<T\>)
+```csharp
+public class Publisher
+{
+    public event EventHandler<MyEventArgs> testEventHandler;
+
+    public void CallEvent(MyEventArgs data)
+    {
+        testEventHandler?.Invoke(this, data);
+    }
+}
+
+public class Subscriber
+{
+    public void HandlerFunc(object sender, MyEventArgs e)
+    {
+        Console.WriteLine($"Get Data : {e.SendData}");
+    }
+}
+
+public class MyEventArgs : EventArgs
+{
+    public string SendData { get; set; }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Publisher pub = new Publisher();
+        Subscriber sub = new Subscriber();
+
+        pub.testEventHandler += sub.HandlerFunc;
+        
+        MyEventArgs data = new MyEventArgs() { SendData = "Hello" };
+        pub.CallEvent(data);    // Get Data : Hello
+    }
+}
+```
 ### EventHandler 와 EventHandler<T\>
 C#에서는 기본적으로 제공되는 이벤트 처리용 델리게이트 두 가지가 있다.
 1. EventHandler
