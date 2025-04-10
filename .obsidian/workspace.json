@@ -33,8 +33,7 @@
               "title": "추상 클래스 Abstract"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -205,8 +205,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1c69673cbc70e3c6",
+  "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
+    "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
     "Study/CSharp & Unity/is 키워드.md",
@@ -214,7 +215,6 @@
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Study/CSharp & Unity/Enum.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",
-    "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Works/250325_동특전/뉴런포착⭐/무제.md",
     "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
