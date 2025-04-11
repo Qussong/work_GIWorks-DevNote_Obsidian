@@ -11,14 +11,12 @@
             "id": "30cc4c9c90de060b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Works/Work.md",
-                "mode": "source",
-                "source": false
+                "file": "Works/250411_대구_교육청_직업소개/Drawing.md"
               },
-              "icon": "lucide-file",
-              "title": "Work"
+              "icon": "excalidraw-icon",
+              "title": "Drawing"
             }
           },
           {
@@ -220,12 +218,12 @@
   },
   "active": "30cc4c9c90de060b",
   "lastOpenFiles": [
-    "Study/CSharp & Unity/추상 클래스 Abstract.md",
-    "Works/250411_대구_교육청_직업소개/Drawing.md",
     "Works/250411_대구_교육청_직업소개/Resources/Pasted Image 20250411151446_848.png",
-    "Works/250411_대구_교육청_직업소개/Resources",
-    "Works/Work.md",
+    "Works/250411_대구_교육청_직업소개/Drawing.md",
     "Works/Layout_Dev.md",
+    "Works/Work.md",
+    "Study/CSharp & Unity/추상 클래스 Abstract.md",
+    "Works/250411_대구_교육청_직업소개/Resources",
     "Study/CSharp & Unity/switch 표현식.md",
     "Works/250411_대구_교육청_직업소개",
     "Study/CSharp & Unity/Enum.md",
