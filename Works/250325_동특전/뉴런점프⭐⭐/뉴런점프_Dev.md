@@ -19,6 +19,7 @@ Memo :
 #### 무한 스크롤
 ref : [tistory_무한 스크롤 직접 구현](https://ruyagames.tistory.com/41)
 
-
+### 베지어곡선 구현
+ref : https://youtu.be/KTEX2L4T4zE?si=okmF1axrCeWqKvso
 
 ---

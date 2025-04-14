@@ -25,12 +25,14 @@
             "id": "93a62e8853dab3e9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/뉴런점프⭐⭐/Drawing.md"
+                "file": "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing"
+              "icon": "lucide-file",
+              "title": "뉴런점프_Dev"
             }
           }
         ],
@@ -207,11 +209,11 @@
   },
   "active": "93a62e8853dab3e9",
   "lastOpenFiles": [
+    "Works/250325_동특전/뉴런점프⭐⭐/Drawing.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414145203_110.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414145116_921.png",
     "Study/CSharp & Unity/코루틴 (Coroutine).md",
     "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
-    "Works/250325_동특전/뉴런점프⭐⭐/Drawing.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414141022_838.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140922_256.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140854_932.png",
@@ -223,7 +225,6 @@
     "Study/CSharp & Unity/switch 표현식.md",
     "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Works/250411_대구_교육청_직업소개/Drawing.md",
-    "Works/250411_대구_교육청_직업소개/Resources/Pasted Image 20250411151446_848.png",
     "Works/Layout_Dev.md",
     "Works/Work.md",
     "Works/250411_대구_교육청_직업소개/Resources",
