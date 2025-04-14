@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
+                "file": "Study/CSharp & Unity/코루틴 (Coroutine).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "뉴런점프_Dev"
+              "title": "코루틴 (Coroutine)"
             }
           },
           {
@@ -33,8 +33,7 @@
               "title": "Drawing"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,8 +204,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "93a62e8853dab3e9",
+  "active": "85f678d1010b7f1a",
   "lastOpenFiles": [
+    "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
+    "Study/CSharp & Unity/코루틴 (Coroutine).md",
+    "Works/250325_동특전/뉴런점프⭐⭐/Drawing.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414141022_838.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140922_256.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140854_932.png",
@@ -215,9 +217,7 @@
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140734_905.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140658_953.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140602_430.png",
-    "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Study/CSharp & Unity/switch 표현식.md",
-    "Works/250325_동특전/뉴런점프⭐⭐/Drawing.md",
     "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Works/250411_대구_교육청_직업소개/Drawing.md",
     "Works/250411_대구_교육청_직업소개/Resources/Pasted Image 20250411151446_848.png",
@@ -244,7 +244,6 @@
     "Study/CS/네트워킹 (Networking).md",
     "Study/CS/_Computer Science.md",
     "Works/250404_강원춘천_통일플러스/Resources/Screenshot_20250408_113413_654.png",
-    "Works/250404_강원춘천_통일플러스/Resources/Screenshot_20250408_113409_547.png",
     "Works/250325_동특전/기획/기획을 도와주는 개발.md",
     "Works/250325_동특전/뇌파이야기⭐⭐⭐",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources",
