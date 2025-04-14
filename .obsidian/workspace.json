@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/CSharp & Unity/switch 표현식.md",
+                "file": "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "switch 표현식"
+              "title": "뉴런점프_Dev"
+            }
+          },
+          {
+            "id": "93a62e8853dab3e9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Works/250325_동특전/뉴런점프⭐⭐/Drawing 2025-04-14 11.07.53.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-14 11.07.53.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,15 +205,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "85f678d1010b7f1a",
+  "active": "93a62e8853dab3e9",
   "lastOpenFiles": [
+    "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
+    "Works/250325_동특전/뉴런점프⭐⭐/Drawing 2025-04-14 11.07.53.excalidraw.md",
+    "Study/CSharp & Unity/switch 표현식.md",
     "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Works/250411_대구_교육청_직업소개/Drawing.md",
     "Works/250411_대구_교육청_직업소개/Resources/Pasted Image 20250411151446_848.png",
     "Works/Layout_Dev.md",
     "Works/Work.md",
     "Works/250411_대구_교육청_직업소개/Resources",
-    "Study/CSharp & Unity/switch 표현식.md",
     "Works/250411_대구_교육청_직업소개",
     "Study/CSharp & Unity/Enum.md",
     "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
@@ -210,7 +225,6 @@
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",
     "Works/250325_동특전/뉴런포착⭐/무제.md",
-    "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
     "Study/CSharp & Unity/액션 Action.md",
     "Study/CSharp & Unity/델리게이트 Delegate.md",
