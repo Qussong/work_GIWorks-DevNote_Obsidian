@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/CSharp & Unity/코루틴 (Coroutine).md",
+                "file": "Study/템플릿 패키지 제작/Manager-Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "코루틴 (Coroutine)"
+              "title": "Manager-Template"
             }
           },
           {
-            "id": "93a62e8853dab3e9",
+            "id": "793368f0d085bdb3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing.md"
+                "file": "Study/템플릿 패키지 제작/Manager-Template.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing"
+              "icon": "lucide-file",
+              "title": "Manager-Template"
             }
           }
         ],
@@ -205,19 +207,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "93a62e8853dab3e9",
+  "active": "793368f0d085bdb3",
   "lastOpenFiles": [
+    "Study/템플릿 패키지 제작/Drawing_Manager-Template.md",
+    "Study/템플릿 패키지 제작/Manager-Template.md",
+    "Study/템플릿 패키지 제작",
+    "Study/CSharp & Unity/델리게이트 Delegate.md",
+    "Study/CSharp & Unity/switch 표현식.md",
+    "Study/CSharp & Unity/is 키워드.md",
+    "Study/CSharp & Unity/Enum.md",
+    "Study/CSharp & Unity/표현식 본문 생성자.md",
+    "Study/CSharp & Unity/코루틴 (Coroutine).md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
     "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
-    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing.md",
     "Study/CSharp & Unity/이벤트 event.md",
     "Study/CSharp & Unity/액션 Action.md",
-    "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Drawing.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414145203_110.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414145116_921.png",
-    "Study/CSharp & Unity/코루틴 (Coroutine).md",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414141022_838.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140922_256.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140854_932.png",
@@ -226,25 +235,19 @@
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140734_905.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140658_953.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140602_430.png",
-    "Study/CSharp & Unity/switch 표현식.md",
     "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Works/250411_대구_교육청_직업소개/Drawing.md",
     "Works/Layout_Dev.md",
     "Works/Work.md",
     "Works/250411_대구_교육청_직업소개/Resources",
     "Works/250411_대구_교육청_직업소개",
-    "Study/CSharp & Unity/Enum.md",
     "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
-    "Study/CSharp & Unity/is 키워드.md",
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",
     "Works/250325_동특전/뉴런포착⭐/무제.md",
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
-    "Study/CSharp & Unity/표현식 본문 생성자.md",
-    "Works/250404_강원춘천_통일플러스/Code Analysis.md",
-    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
     "Study/CSharp & Unity",
     "Works/250325_동특전/뇌파이야기⭐⭐⭐",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources",
@@ -252,7 +255,6 @@
     "Works/250325_동특전/뉴런포착⭐",
     "Works/250325_동특전/뉴런점프⭐⭐",
     "Works/250404_강원춘천_통일플러스/Resources",
-    "Works/250404_강원춘천_통일플러스",
     "무제.canvas"
   ]
 }
