@@ -11,14 +11,12 @@
             "id": "85f678d1010b7f1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Study/템플릿 패키지 제작/Manager-Template.md",
-                "mode": "source",
-                "source": false
+                "file": "Study/템플릿 패키지 제작/Drawing_Manager-Template.md"
               },
-              "icon": "lucide-file",
-              "title": "Manager-Template"
+              "icon": "excalidraw-icon",
+              "title": "Drawing_Manager-Template"
             }
           },
           {
@@ -35,8 +33,7 @@
               "title": "Manager-Template"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,10 +204,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "793368f0d085bdb3",
+  "active": "85f678d1010b7f1a",
   "lastOpenFiles": [
-    "Study/템플릿 패키지 제작/Drawing_Manager-Template.md",
     "Study/템플릿 패키지 제작/Manager-Template.md",
+    "Study/템플릿 패키지 제작/Drawing_Manager-Template.md",
     "Study/템플릿 패키지 제작",
     "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Study/CSharp & Unity/switch 표현식.md",
