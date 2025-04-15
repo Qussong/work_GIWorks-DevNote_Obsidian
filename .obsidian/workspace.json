@@ -25,14 +25,12 @@
             "id": "93a62e8853dab3e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Study/CSharp & Unity/이벤트 event.md",
-                "mode": "source",
-                "source": false
+                "file": "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing.md"
               },
-              "icon": "lucide-file",
-              "title": "이벤트 event"
+              "icon": "excalidraw-icon",
+              "title": "Drawing"
             }
           }
         ],
@@ -209,8 +207,11 @@
   },
   "active": "93a62e8853dab3e9",
   "lastOpenFiles": [
-    "Study/CSharp & Unity/액션 Action.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver1.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Dev Note Ver2.md",
+    "Works/250325_동특전/감정읽기⭐⭐⭐/Drawing.md",
     "Study/CSharp & Unity/이벤트 event.md",
+    "Study/CSharp & Unity/액션 Action.md",
     "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Works/250325_동특전/뉴런점프⭐⭐/뉴런점프_Dev.md",
     "Works/250325_동특전/뉴런점프⭐⭐/Drawing.md",
@@ -245,8 +246,6 @@
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
     "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
     "Study/CSharp & Unity",
-    "Study/CS/네트워킹 (Networking).md",
-    "Study/CS/_Computer Science.md",
     "Works/250325_동특전/뇌파이야기⭐⭐⭐",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources",
     "Works/250325_동특전/뉴런포착⭐/Resources",
