@@ -11,10 +11,14 @@
             "id": "b166e07fc2f1fd49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Study/CSharp & Unity/폰트 애셋 제작.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "폰트 애셋 제작"
             }
           }
         ]
@@ -190,6 +194,8 @@
   },
   "active": "b166e07fc2f1fd49",
   "lastOpenFiles": [
+    "Study/CSharp & Unity/Resources/Pasted image 20250416114348.png",
+    "Study/CSharp & Unity/Resources/Pasted image 20250416114337.png",
     "Study/CSharp & Unity/폰트 애셋 제작.md",
     "Study/템플릿 패키지 제작/Manager-Template.md",
     "Study/CSharp & Unity/Resources/Pasted image 20250416111236.png",
@@ -217,7 +223,6 @@
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140854_932.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140837_001.png",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140811_297.png",
-    "Works/250325_동특전/뉴런점프⭐⭐/Resources/Pasted Image 20250414140734_905.png",
     "Study/CSharp & Unity/추상 클래스 Abstract.md",
     "Works/250411_대구_교육청_직업소개/Drawing.md",
     "Works/Layout_Dev.md",
