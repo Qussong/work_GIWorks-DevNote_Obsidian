@@ -11,12 +11,14 @@
             "id": "85f678d1010b7f1a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Study/템플릿 패키지 제작/Drawing_Manager-Template.md"
+                "file": "Study/CSharp & Unity/폰트 애셋 제작.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing_Manager-Template"
+              "icon": "lucide-file",
+              "title": "폰트 애셋 제작"
             }
           },
           {
@@ -90,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -205,9 +206,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "048332aa632329b0",
+  "active": "85f678d1010b7f1a",
   "lastOpenFiles": [
     "Study/템플릿 패키지 제작/Drawing_Manager-Template.md",
+    "Study/CSharp & Unity/폰트 애셋 제작.md",
     "Study/템플릿 패키지 제작/Manager-Template.md",
     "Study/템플릿 패키지 제작",
     "Study/CSharp & Unity/델리게이트 Delegate.md",
@@ -245,7 +247,6 @@
     "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",
     "Works/250325_동특전/뉴런포착⭐/무제.md",
-    "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
     "Study/CSharp & Unity",
     "Works/250325_동특전/뇌파이야기⭐⭐⭐",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources",
