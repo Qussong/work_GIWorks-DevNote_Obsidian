@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/기획/기획을 도와주는 개발.md",
+                "file": "Works/250325_동특전/뇌파이야기⭐⭐⭐/뇌파이야기_Dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기획을 도와주는 개발"
+              "title": "뇌파이야기_Dev"
+            }
+          },
+          {
+            "id": "5a4ad31b9e3c5c4b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Works/250325_동특전/뇌파이야기⭐⭐⭐/Drawing.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 249.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -192,8 +205,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b166e07fc2f1fd49",
+  "active": "8143b15a9106c5cf",
   "lastOpenFiles": [
+    "Works/250325_동특전/뇌파이야기⭐⭐⭐/뇌파이야기_Dev.md",
+    "Works/250325_동특전/뇌파이야기⭐⭐⭐/Drawing.md",
+    "Works/250325_동특전/기획/기획을 도와주는 개발.md",
     "Study/CSharp & Unity/폰트 애셋 제작.md",
     "Study/CSharp & Unity/Resources/Pasted image 20250416114716.png",
     "Study/CSharp & Unity/Resources/Pasted image 20250416114348.png",
@@ -231,8 +247,6 @@
     "Works/250325_동특전/뉴런포착⭐/Drawing_Manager.md",
     "Study/CSharp & Unity/인터페이스 (Interface).md",
     "Study/CSharp & Unity/이벤트핸들러 EventHandler.md",
-    "Works/250325_동특전/뉴런포착⭐/뉴런포착_Dev.md",
-    "Study/CSharp & Unity/스크린, 디스플레이.md",
     "Study/CSharp & Unity",
     "Works/250325_동특전/뇌파이야기⭐⭐⭐",
     "Works/250325_동특전/뉴런점프⭐⭐/Resources",
