@@ -25,12 +25,14 @@
             "id": "5a4ad31b9e3c5c4b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_동특전/뇌파이야기⭐⭐⭐/Drawing.md"
+                "file": "Works/250325_동특전/기획/기획을 도와주는 개발.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing"
+              "icon": "lucide-file",
+              "title": "기획을 도와주는 개발"
             }
           }
         ],
@@ -205,7 +207,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "363b869a0d27c7ad",
+  "active": "5a4ad31b9e3c5c4b",
   "lastOpenFiles": [
     "Works/250325_동특전/뇌파이야기⭐⭐⭐/Drawing.md",
     "Works/250325_동특전/뇌파이야기⭐⭐⭐/Resources/Pasted Image 20250417160848_163.png",
