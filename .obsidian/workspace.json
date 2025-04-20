@@ -29,8 +29,8 @@
               "state": {
                 "file": "Works/250325_동특전/뇌파이야기⭐⭐⭐/Drawing.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           }
         ]
@@ -179,8 +179,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           }
         ],
