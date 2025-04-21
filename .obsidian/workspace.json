@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Works/250325_동특전/뉴런포착/Drawing.md"
+                "file": "Works/250325_동특전/뇌질환클리닉_수술기기/Drawing.md"
               },
               "icon": "excalidraw-icon",
               "title": "Drawing"
@@ -193,6 +193,9 @@
   },
   "active": "8a876f6bf493452c",
   "lastOpenFiles": [
+    "Study/CSharp & Unity/델리게이트 Delegate.md",
+    "Study/CSharp & Unity/스크린, 디스플레이.md",
+    "Works/250325_동특전/뉴런포착/Drawing.md",
     "Works/250325_동특전/뉴런포착/Resources/Pasted Image 20250421155704_913.png",
     "Works/250325_동특전/뉴런포착/Resources/Pasted Image 20250421155616_535.png",
     "Works/250325_동특전/뉴런포착/Resources/Pasted Image 20250421155537_862.png",
@@ -207,8 +210,7 @@
     "Works/250325_동특전/뇌파이야기/Drawing.md",
     "Works/250325_동특전/뇌파이야기/Resources/Pasted Image 20250421110006_137.png",
     "Works/250325_동특전/뇌파이야기/Resources/Pasted Image 20250421105905_506.png",
-    "Works/250325_동특전/뇌파이야기/Resources/Pasted Image 20250421105825_116.png",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Drawing 2025-04-21 10.28.53.excalidraw.md",
+    "Works/250325_동특전/뇌질환클리닉_수술기기/Drawing.md",
     "Works/Layout_Dev.md",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Resources",
     "Works/250325_동특전/뇌질환클리닉_수술기기",
@@ -227,7 +229,6 @@
     "Study/CSharp & Unity/Resources",
     "Study/템플릿 패키지 제작/Drawing_Manager-Template.md",
     "Study/템플릿 패키지 제작",
-    "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Study/CSharp & Unity/switch 표현식.md",
     "Study/CSharp & Unity/is 키워드.md",
     "Study/CSharp & Unity/Enum.md",
@@ -235,7 +236,6 @@
     "Study/CSharp & Unity/코루틴 (Coroutine).md",
     "Works/250325_동특전/감정읽기/Drawing.md",
     "Works/250325_동특전/감정읽기/Dev Note Ver1.md",
-    "Works/250325_동특전/감정읽기/Dev Note Ver2.md",
     "Works/250411_대구_교육청_직업소개/Resources",
     "Works/250411_대구_교육청_직업소개",
     "Study/CSharp & Unity",
