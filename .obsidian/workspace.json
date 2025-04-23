@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c87b52f857a2e3b3",
+        "id": "894f9befb0db4a84",
         "type": "tabs",
         "children": [
           {
-            "id": "8a876f6bf493452c",
+            "id": "3df447967d9fb9d4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Works/250325_동특전/뇌질환클리닉_수술기기/Drawing.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -76,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 239.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -191,10 +188,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "69258bcb8eb339ca",
+  "active": "3df447967d9fb9d4",
   "lastOpenFiles": [
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002659_746.png",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Drawing.md",
+    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002659_746.png",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002648_171.png",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002634_789.png",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002550_191.png",
