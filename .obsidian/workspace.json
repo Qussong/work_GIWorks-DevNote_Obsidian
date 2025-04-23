@@ -11,10 +11,12 @@
             "id": "3df447967d9fb9d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "excalidraw",
+              "state": {
+                "file": "Works/250325_동특전/뇌플릭스/Drawing_flow.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing_flow"
             }
           }
         ]
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 261.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -188,7 +190,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3df447967d9fb9d4",
+  "active": "360e40a0dd1e810b",
   "lastOpenFiles": [
     "Works/250325_동특전/뇌질환클리닉_수술기기/Drawing.md",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002659_746.png",
