@@ -11,10 +11,12 @@
             "id": "1ae2bb0fbcddb394",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "excalidraw",
+              "state": {
+                "file": "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing_PhotoKioskAnalysis"
             }
           }
         ]
@@ -188,12 +190,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8143b15a9106c5cf",
+  "active": "7580a0c0c0752c6c",
   "lastOpenFiles": [
+    "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
+    "Works/250404_강원춘천_통일플러스/Code Analysis.md",
+    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
+    "Excalidraw/Drawing 2025-04-24 13.22.14.excalidraw.md",
     "Excalidraw/Resources/temp_1745468640149.png",
     "Excalidraw/Resources/temp_1745468636061.png",
     "Excalidraw/Resources/Pasted Image 20250424132313_163.png",
-    "Excalidraw/Drawing 2025-04-24 13.22.14.excalidraw.md",
     "Works/250325_공특전/공특전_Dev.md",
     "Excalidraw/Resources",
     "Excalidraw",
@@ -232,8 +237,6 @@
     "Study/CSharp & Unity/switch 표현식.md",
     "Study/CSharp & Unity/is 키워드.md",
     "Study/CSharp & Unity/Enum.md",
-    "Study/CSharp & Unity/표현식 본문 생성자.md",
-    "Study/CSharp & Unity/코루틴 (Coroutine).md",
     "Works/250411_대구_교육청_직업소개/Resources",
     "무제.canvas"
   ]
