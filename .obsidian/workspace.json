@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "faf3bdbc20e25477",
+        "id": "ce89838ad8130018",
         "type": "tabs",
         "children": [
           {
-            "id": "1ae2bb0fbcddb394",
+            "id": "5a4ad31b9e3c5c4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Works/250325_공특전/기획/기획을 도와주는 개발.md",
+                "file": "Works/250325_공특전/정서사고성/메타휴먼.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기획을 도와주는 개발"
+              "title": "메타휴먼"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 249.5
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -157,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           },
           {
@@ -167,12 +167,12 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -192,54 +192,54 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1ae2bb0fbcddb394",
+  "active": "5a4ad31b9e3c5c4b",
   "lastOpenFiles": [
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Drawing.md",
-    "Works/250325_공특전/뇌파이야기/Drawing.md",
-    "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
-    "Works/250404_강원춘천_통일플러스/Code Analysis.md",
-    "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
-    "Excalidraw/Drawing 2025-04-24 13.22.14.excalidraw.md",
-    "Excalidraw/Resources/temp_1745468640149.png",
-    "Excalidraw/Resources/temp_1745468636061.png",
-    "Excalidraw/Resources/Pasted Image 20250424132313_163.png",
     "Works/250325_공특전/공특전_Dev.md",
-    "Excalidraw/Resources",
-    "Excalidraw",
-    "Works/250325_공특전/뇌플릭스/Drawing_flow.md",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002659_746.png",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002648_171.png",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002634_789.png",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002550_191.png",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002420_559.png",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002100_052.png",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422001959_526.png",
-    "Study/CSharp & Unity/델리게이트 Delegate.md",
-    "Study/CSharp & Unity/스크린, 디스플레이.md",
-    "Works/250325_공특전/뉴런포착/Drawing.md",
-    "Works/250325_공특전/뉴런포착/Resources",
-    "Works/250325_공특전/뇌플릭스/뇌플릭스_Dev.md",
     "Works/Layout_Dev.md",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources",
-    "Works/250325_공특전/뇌질환클리닉_수술기기",
-    "conflict-files-obsidian-git.md",
     "Works/Work.md",
-    "README.md",
     "Works/250325_공특전/정서사고성/메타휴먼.md",
     "Works/250325_공특전/정서사고성",
-    "Works/250325_공특전/뇌파이야기/뇌파이야기_Dev.md",
-    "Works/250325_공특전/기획/Drawing_기획.md",
-    "Works/250325_공특전/기획/기획을 도와주는 개발.md",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155704_913.png",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155616_535.png",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155440_823.png",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155351_175.png",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155537_862.png",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155503_761.png",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155324_691.png",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155247_616.png",
+    "Works/250325_공특전/뉴런포착/뉴런포착_Dev.md",
+    "Works/250325_공특전/뉴런포착/Drawing.md",
+    "Works/250325_공특전/뉴런포착/Resources",
+    "Works/250325_공특전/뉴런포착",
+    "Works/250325_공특전/뉴런점프/Resources/Pasted Image 20250414145203_110.png",
+    "Works/250325_공특전/뉴런점프/Resources/Pasted Image 20250414145116_921.png",
+    "Works/250325_공특전/뉴런점프/뉴런점프_Dev.md",
+    "Works/250325_공특전/뉴런점프/Drawing.md",
+    "Works/250325_공특전/뉴런점프/Resources",
+    "Works/250325_공특전/뉴런점프",
+    "Works/250325_공특전/뇌플릭스/뇌플릭스_Dev.md",
+    "Works/250325_공특전/뇌플릭스/Resources",
+    "Works/250325_공특전/뇌플릭스/Drawing_flow.md",
+    "Works/250325_공특전/뇌플릭스",
+    "Works/250325_동특전/정서사고성/메타휴먼.md",
     "Works/250325_공특전/뇌파이야기/Resources",
+    "Works/250325_공특전/뇌파이야기/뇌파이야기_Dev.md",
+    "Works/250325_공특전/뇌파이야기/Drawing.md",
+    "Works/250325_공특전/뇌파이야기",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Drawing.md",
+    "Works/250325_공특전/감정읽기/Dev Note Ver1.md",
+    "Works/250325_공특전/기획/기획을 도와주는 개발.md",
+    "Works/250325_공특전/감정읽기/Dev Note Ver2.md",
+    "Works/250325_공특전/기획/Drawing_기획.md",
+    "Works/250325_공특전/감정읽기/감정읽기_Dev.md",
+    "Works/250325_공특전/감정읽기/Drawing.md",
+    "Works/250325_동특전/뇌파이야기⭐⭐⭐/Drawing.md",
+    "Works/250325_동특전/동특전_Dev.md",
+    "Works/250325_동특전/뇌파이야기⭐⭐⭐/뇌파이야기_Dev.md",
+    "Works/250325_동특전/기획/Drawing_기획.md",
+    "Works/250325_동특전/기획/기획을 도와주는 개발.md",
     "Study/CSharp & Unity/폰트 애셋 제작.md",
-    "Study/템플릿 패키지 제작/Manager-Template.md",
-    "Study/CSharp & Unity/Resources",
-    "Study/템플릿 패키지 제작/Drawing_Manager-Template.md",
-    "Study/템플릿 패키지 제작",
-    "Study/CSharp & Unity/switch 표현식.md",
-    "Study/CSharp & Unity/is 키워드.md",
-    "Study/CSharp & Unity/Enum.md",
-    "Works/250411_대구_교육청_직업소개/Resources",
     "무제.canvas"
   ]
 }
