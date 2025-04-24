@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "83b16779f038f2aa",
+        "id": "faf3bdbc20e25477",
         "type": "tabs",
         "children": [
           {
-            "id": "64721da3045d4efe",
+            "id": "1ae2bb0fbcddb394",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Works/250325_공특전/공특전_Dev.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "공특전_Dev"
-            }
-          },
-          {
-            "id": "ebde801e777bd5b0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-04-24 13.22.14.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-24 13.22.14.excalidraw"
+              "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,14 +188,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ebde801e777bd5b0",
+  "active": "8143b15a9106c5cf",
   "lastOpenFiles": [
     "Excalidraw/Resources/temp_1745468640149.png",
     "Excalidraw/Resources/temp_1745468636061.png",
     "Excalidraw/Resources/Pasted Image 20250424132313_163.png",
-    "Excalidraw/Resources",
-    "Works/250325_공특전/공특전_Dev.md",
     "Excalidraw/Drawing 2025-04-24 13.22.14.excalidraw.md",
+    "Works/250325_공특전/공특전_Dev.md",
+    "Excalidraw/Resources",
     "Excalidraw",
     "Works/250325_공특전/뇌플릭스/Drawing_flow.md",
     "Works/250325_공특전/뇌질환클리닉_수술기기/Drawing.md",
@@ -223,7 +206,6 @@
     "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002420_559.png",
     "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002100_052.png",
     "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422001959_526.png",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422001936_586.png",
     "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",
     "Works/250325_공특전/뉴런포착/Drawing.md",
