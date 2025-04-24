@@ -11,12 +11,14 @@
             "id": "1ae2bb0fbcddb394",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_공특전/뇌파이야기/Drawing.md"
+                "file": "Works/250325_공특전/기획/기획을 도와주는 개발.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing"
+              "icon": "lucide-file",
+              "title": "기획을 도와주는 개발"
             }
           }
         ]
@@ -190,8 +192,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "93254d2a38f7f7d5",
+  "active": "1ae2bb0fbcddb394",
   "lastOpenFiles": [
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Drawing.md",
     "Works/250325_공특전/뇌파이야기/Drawing.md",
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
@@ -204,7 +207,6 @@
     "Excalidraw/Resources",
     "Excalidraw",
     "Works/250325_공특전/뇌플릭스/Drawing_flow.md",
-    "Works/250325_공특전/뇌질환클리닉_수술기기/Drawing.md",
     "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002659_746.png",
     "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002648_171.png",
     "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002634_789.png",
