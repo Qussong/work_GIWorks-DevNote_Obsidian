@@ -11,13 +11,30 @@
             "id": "64721da3045d4efe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Works/250325_공특전/공특전_Dev.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "공특전_Dev"
+            }
+          },
+          {
+            "id": "ebde801e777bd5b0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-24 13.22.14.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-24 13.22.14.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,39 +205,43 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "64721da3045d4efe",
+  "active": "ebde801e777bd5b0",
   "lastOpenFiles": [
-    "Works/250325_동특전/뇌플릭스/Drawing_flow.md",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Drawing.md",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002659_746.png",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002648_171.png",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002634_789.png",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002550_191.png",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002420_559.png",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002100_052.png",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422001959_526.png",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422001936_586.png",
+    "Excalidraw/Resources/temp_1745468636061.png",
+    "Excalidraw/Resources/Pasted Image 20250424132313_163.png",
+    "Excalidraw/Resources",
+    "Works/250325_공특전/공특전_Dev.md",
+    "Excalidraw/Drawing 2025-04-24 13.22.14.excalidraw.md",
+    "Excalidraw",
+    "Works/250325_공특전/뇌플릭스/Drawing_flow.md",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Drawing.md",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002659_746.png",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002648_171.png",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002634_789.png",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002550_191.png",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002420_559.png",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002100_052.png",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422001959_526.png",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422001936_586.png",
     "Study/CSharp & Unity/델리게이트 Delegate.md",
     "Study/CSharp & Unity/스크린, 디스플레이.md",
-    "Works/250325_동특전/뉴런포착/Drawing.md",
-    "Works/250325_동특전/뉴런포착/Resources/Pasted Image 20250421155704_913.png",
-    "Works/250325_동특전/뉴런포착/Resources/Pasted Image 20250421155616_535.png",
-    "Works/250325_동특전/뉴런포착/Resources",
-    "Works/250325_동특전/뇌플릭스/뇌플릭스_Dev.md",
-    "Works/250325_동특전/뇌파이야기/Drawing.md",
+    "Works/250325_공특전/뉴런포착/Drawing.md",
+    "Works/250325_공특전/뉴런포착/Resources/Pasted Image 20250421155704_913.png",
+    "Works/250325_공특전/뉴런포착/Resources",
+    "Works/250325_공특전/뇌플릭스/뇌플릭스_Dev.md",
+    "Works/250325_공특전/뇌파이야기/Drawing.md",
     "Works/Layout_Dev.md",
-    "Works/250325_동특전/뇌질환클리닉_수술기기/Resources",
-    "Works/250325_동특전/뇌질환클리닉_수술기기",
+    "Works/250325_공특전/뇌질환클리닉_수술기기/Resources",
+    "Works/250325_공특전/뇌질환클리닉_수술기기",
     "conflict-files-obsidian-git.md",
     "Works/Work.md",
     "README.md",
-    "Works/250325_동특전/정서사고성/메타휴먼.md",
-    "Works/250325_동특전/정서사고성",
-    "Works/250325_동특전/동특전_Dev.md",
-    "Works/250325_동특전/뇌파이야기/뇌파이야기_Dev.md",
-    "Works/250325_동특전/기획/Drawing_기획.md",
-    "Works/250325_동특전/기획/기획을 도와주는 개발.md",
-    "Works/250325_동특전/뇌파이야기/Resources",
+    "Works/250325_공특전/정서사고성/메타휴먼.md",
+    "Works/250325_공특전/정서사고성",
+    "Works/250325_공특전/뇌파이야기/뇌파이야기_Dev.md",
+    "Works/250325_공특전/기획/Drawing_기획.md",
+    "Works/250325_공특전/기획/기획을 도와주는 개발.md",
+    "Works/250325_공특전/뇌파이야기/Resources",
     "Study/CSharp & Unity/폰트 애셋 제작.md",
     "Study/템플릿 패키지 제작/Manager-Template.md",
     "Study/CSharp & Unity/Resources",
@@ -231,10 +252,7 @@
     "Study/CSharp & Unity/Enum.md",
     "Study/CSharp & Unity/표현식 본문 생성자.md",
     "Study/CSharp & Unity/코루틴 (Coroutine).md",
-    "Works/250325_동특전/감정읽기/Drawing.md",
     "Works/250411_대구_교육청_직업소개/Resources",
-    "Works/250411_대구_교육청_직업소개",
-    "Study/CSharp & Unity",
     "무제.canvas"
   ]
 }
