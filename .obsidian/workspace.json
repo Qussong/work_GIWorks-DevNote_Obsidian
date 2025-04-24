@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "894f9befb0db4a84",
+        "id": "83b16779f038f2aa",
         "type": "tabs",
         "children": [
           {
-            "id": "3df447967d9fb9d4",
+            "id": "64721da3045d4efe",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Works/250325_동특전/뇌플릭스/Drawing_flow.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing_flow"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
         ]
@@ -190,8 +188,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "360e40a0dd1e810b",
+  "active": "64721da3045d4efe",
   "lastOpenFiles": [
+    "Works/250325_동특전/뇌플릭스/Drawing_flow.md",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Drawing.md",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002659_746.png",
     "Works/250325_동특전/뇌질환클리닉_수술기기/Resources/Pasted Image 20250422002648_171.png",
@@ -207,7 +206,6 @@
     "Works/250325_동특전/뉴런포착/Resources/Pasted Image 20250421155704_913.png",
     "Works/250325_동특전/뉴런포착/Resources/Pasted Image 20250421155616_535.png",
     "Works/250325_동특전/뉴런포착/Resources",
-    "Works/250325_동특전/뇌플릭스/Drawing_flow.md",
     "Works/250325_동특전/뇌플릭스/뇌플릭스_Dev.md",
     "Works/250325_동특전/뇌파이야기/Drawing.md",
     "Works/Layout_Dev.md",
