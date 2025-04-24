@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md"
+                "file": "Works/250325_공특전/뇌파이야기/Drawing.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing_PhotoKioskAnalysis"
+              "title": "Drawing"
             }
           }
         ]
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 200
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -190,8 +190,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7580a0c0c0752c6c",
+  "active": "93254d2a38f7f7d5",
   "lastOpenFiles": [
+    "Works/250325_공특전/뇌파이야기/Drawing.md",
     "Works/250404_강원춘천_통일플러스/Drawing_PhotoKioskAnalysis.md",
     "Works/250404_강원춘천_통일플러스/Code Analysis.md",
     "Works/250404_강원춘천_통일플러스/_통일플러스_Dev.md",
@@ -216,7 +217,6 @@
     "Works/250325_공특전/뉴런포착/Drawing.md",
     "Works/250325_공특전/뉴런포착/Resources",
     "Works/250325_공특전/뇌플릭스/뇌플릭스_Dev.md",
-    "Works/250325_공특전/뇌파이야기/Drawing.md",
     "Works/Layout_Dev.md",
     "Works/250325_공특전/뇌질환클리닉_수술기기/Resources",
     "Works/250325_공특전/뇌질환클리닉_수술기기",
