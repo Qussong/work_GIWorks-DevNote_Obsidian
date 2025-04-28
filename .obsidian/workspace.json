@@ -33,8 +33,7 @@
               "title": "Drawing"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,7 +204,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ea9377956cf15ce",
+  "active": "1ae2bb0fbcddb394",
   "lastOpenFiles": [
     "Excalidraw/Drawing.md",
     "Works/250325_공특전/공특전_Dev.md",
