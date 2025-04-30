@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -191,7 +190,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1d2843ecf3f91350",
+  "active": "a60cc341dbac4561",
   "lastOpenFiles": [
     "Works/250325_공특전/뇌파이야기/Drawing.md",
     "Works/250325_공특전/뇌파이야기/Resources/Pasted Image 20250430121042_173.png",
