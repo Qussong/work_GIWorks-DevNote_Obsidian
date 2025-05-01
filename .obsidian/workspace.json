@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Works/250325_공특전/뇌파이야기/Drawing.md"
+                "file": "Works/250325_공특전/뇌질환클리닉_수술기기/Drawing.md"
               },
               "icon": "excalidraw-icon",
               "title": "Drawing"
@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -190,7 +191,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a60cc341dbac4561",
+  "active": "b77e918cec535cf3",
   "lastOpenFiles": [
     "Works/250325_공특전/뇌파이야기/Drawing.md",
     "Works/250325_공특전/뇌파이야기/Resources/Pasted Image 20250430121042_173.png",
