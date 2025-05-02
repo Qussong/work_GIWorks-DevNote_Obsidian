@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Works/250325_공특전/감정읽기/Drawing.md"
+                "file": "Works/250325_공특전/뇌파이야기/Drawing.md"
               },
               "icon": "excalidraw-icon",
               "title": "Drawing"
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -191,8 +190,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "70e8d238d8562893",
+  "active": "1ae2bb0fbcddb394",
   "lastOpenFiles": [
+    "Works/250325_공특전/뇌파이야기/뇌파이야기_Dev.md",
+    "Works/250325_공특전/감정읽기/Drawing.md",
     "Works/250325_공특전/뇌질환클리닉_수술기기/Drawing.md",
     "Works/250325_공특전/뇌파이야기/Drawing.md",
     "Works/250325_공특전/뇌파이야기/Resources/Pasted Image 20250430121042_173.png",
@@ -229,7 +230,6 @@
     "README.md",
     "Works/250325_공특전/정서사고성/메타휴먼.md",
     "Works/250325_공특전/정서사고성",
-    "Works/250325_공특전/뇌파이야기/뇌파이야기_Dev.md",
     "Works/250325_공특전/기획/Drawing_기획.md",
     "Works/250325_공특전/뇌파이야기/Resources",
     "Study/CSharp & Unity/폰트 애셋 제작.md",
