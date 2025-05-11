@@ -1,6 +1,5 @@
-# <span style="background:lightgray">프로젝트 관리</span>
+# <span style="background:lightgray">Project List</span>
 
-### 프로젝트
 | Project Name | Region | Progress | Git Url | Start Date |
 | :----------- | ------ | :------: | ------- | ---------- |
 | 뇌 오가노이드      | 공특전    |          |         |            |

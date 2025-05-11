@@ -11,12 +11,14 @@
             "id": "1ae2bb0fbcddb394",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Works/250325_공특전/뇌파이야기/Drawing.md"
+                "file": "Works/Work.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing"
+              "icon": "lucide-file",
+              "title": "Work"
             }
           }
         ]
@@ -76,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ad22ed403cedab75",
@@ -191,7 +192,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "485aa565c2dce22b",
+  "active": "1ae2bb0fbcddb394",
   "lastOpenFiles": [
     "Works/250325_공특전/뇌파이야기/Drawing.md",
     "Works/250325_공특전/뇌파이야기/Resources/Pasted Image 20250503002541_846.png",
